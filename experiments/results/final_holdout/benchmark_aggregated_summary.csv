@@ -1,0 +1,385 @@
+benchmark_id,benchmark_name,category,family,authoritative_label,config_id,reps_count,wall_time_median,wall_time_mean,wall_time_std,cpu_time_median,cpu_time_mean,conflicts_median,conflicts_mean,restarts_median,genuine_restarts_mean,v3_executed_restarts_mean,reduce_db_mean
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg01_baseline_base,3,0.0402,0.0358,0.0068,0.0156,0.0208,422,422.0,2,1.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg02_v1_base,3,0.0355,0.0348,0.0034,0.0312,0.026,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg03_v3dd_base,3,0.0402,0.0383,0.0041,0.0156,0.026,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg04_noheuristic_base,3,0.0349,0.0354,0.0046,0.0156,0.0208,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg05_baseline_adaptfix,3,0.0399,0.0391,0.007,0.0312,0.0364,422,422.0,2,1.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg06_v1_adaptfix,3,0.0371,0.0346,0.0048,0.0312,0.026,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg07_v3dd_adaptfix,3,0.0341,0.0348,0.002,0.0156,0.0156,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_01,bf0432-007.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg08_noheuristic_adaptfix,3,0.0401,0.0522,0.0205,0.0156,0.0156,362,362.0,1,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg01_baseline_base,3,0.0332,0.0339,0.0021,0.0312,0.0364,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg02_v1_base,3,0.033,0.0339,0.0034,0.0156,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg03_v3dd_base,3,0.0371,0.0378,0.0051,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg04_noheuristic_base,3,0.0415,0.0452,0.0103,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg05_baseline_adaptfix,3,0.0396,0.0424,0.0045,0.0469,0.0417,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg06_v1_adaptfix,3,0.0334,0.0336,0.0067,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg07_v3dd_adaptfix,3,0.0405,0.0374,0.0066,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_02,bf1355-075.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg08_noheuristic_adaptfix,3,0.0385,0.0383,0.004,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg01_baseline_base,3,0.041,0.0394,0.0041,0.0312,0.0416,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg02_v1_base,3,0.0328,0.0348,0.0042,0.0312,0.026,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg03_v3dd_base,3,0.0341,0.0357,0.0053,0.0312,0.026,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg04_noheuristic_base,3,0.0358,0.0353,0.0033,0.0312,0.026,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg05_baseline_adaptfix,3,0.0299,0.0325,0.0049,0.0156,0.0208,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg06_v1_adaptfix,3,0.0297,0.0382,0.0145,0.0156,0.0208,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg07_v3dd_adaptfix,3,0.0354,0.0348,0.0041,0.0156,0.0208,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_03,bf1355-638.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg08_noheuristic_adaptfix,3,0.0311,0.0379,0.0127,0.0156,0.026,7,7.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg01_baseline_base,3,0.0349,0.031,0.0058,0.0156,0.0208,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg02_v1_base,3,0.0333,0.0316,0.0031,0.0156,0.0156,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg03_v3dd_base,3,0.0311,0.0298,0.0053,0.0156,0.0156,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg04_noheuristic_base,3,0.0287,0.0311,0.0044,0.0156,0.0156,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg05_baseline_adaptfix,3,0.0288,0.0301,0.0037,0.0156,0.026,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg06_v1_adaptfix,3,0.0299,0.0312,0.005,0.0156,0.0208,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg07_v3dd_adaptfix,3,0.0352,0.0332,0.0048,0.0156,0.0156,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_04,bf2670-001.cnf,Industrial / Circuit Verification,Bridging Faults (BF),UNSAT,cfg08_noheuristic_adaptfix,3,0.0352,0.0327,0.0067,0.0156,0.0156,12,12.0,1,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg01_baseline_base,3,0.0258,0.0261,0.0023,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg02_v1_base,3,0.024,0.0236,0.0011,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg03_v3dd_base,3,0.0261,0.0248,0.0027,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg04_noheuristic_base,3,0.0238,0.0235,0.0023,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg05_baseline_adaptfix,3,0.0253,0.0254,0.0022,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg06_v1_adaptfix,3,0.024,0.0272,0.0054,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg07_v3dd_adaptfix,3,0.0218,0.0248,0.0048,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_05,ssa0432-003.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg08_noheuristic_adaptfix,3,0.0256,0.0239,0.0029,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg01_baseline_base,3,0.0311,0.0325,0.0061,0.0156,0.0208,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg02_v1_base,3,0.0293,0.0307,0.0028,0.0156,0.0208,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg03_v3dd_base,3,0.0296,0.0283,0.0034,0.0156,0.0156,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg04_noheuristic_base,3,0.0268,0.0288,0.0053,0.0156,0.0208,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg05_baseline_adaptfix,3,0.0273,0.0294,0.0052,0.0156,0.0156,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg06_v1_adaptfix,3,0.0264,0.0272,0.003,0.0156,0.0208,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg07_v3dd_adaptfix,3,0.0255,0.0305,0.0074,0.0156,0.026,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_06,ssa2670-130.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg08_noheuristic_adaptfix,3,0.0329,0.0324,0.0035,0.0156,0.0156,74,74.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg01_baseline_base,3,0.0303,0.03,0.0042,0.0156,0.026,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg02_v1_base,3,0.0315,0.031,0.0031,0.0156,0.0208,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg03_v3dd_base,3,0.0271,0.0311,0.0075,0.0156,0.0156,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg04_noheuristic_base,3,0.0242,0.0276,0.0053,0.0156,0.0156,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg05_baseline_adaptfix,3,0.0263,0.0279,0.0042,0.0156,0.0156,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg06_v1_adaptfix,3,0.0263,0.0293,0.0051,0.0156,0.0156,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg07_v3dd_adaptfix,3,0.0285,0.0297,0.0021,0.0156,0.0104,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_07,ssa2670-141.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),UNSAT,cfg08_noheuristic_adaptfix,3,0.0305,0.0293,0.0047,0.0156,0.0156,184,184.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg01_baseline_base,3,0.0299,0.0478,0.0291,0.0156,0.0208,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg02_v1_base,3,0.0266,0.0287,0.0032,0.0156,0.0208,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg03_v3dd_base,3,0.0281,0.0304,0.0032,0.0156,0.0156,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg04_noheuristic_base,3,0.0248,0.0275,0.0043,0.0,0.0,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg05_baseline_adaptfix,3,0.0227,0.0262,0.0054,0.0,0.0052,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg06_v1_adaptfix,3,0.0244,0.027,0.0041,0.0156,0.0156,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg07_v3dd_adaptfix,3,0.0295,0.0279,0.003,0.0156,0.0156,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_08,ssa7552-158.cnf,Industrial / Circuit Verification,Single Stuck-at Faults (SSA),SAT,cfg08_noheuristic_adaptfix,3,0.0265,0.0285,0.0038,0.0,0.0052,0,0.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg01_baseline_base,3,0.0294,0.0301,0.0034,0.0156,0.0156,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg02_v1_base,3,0.0288,0.0326,0.0077,0.0156,0.0156,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg03_v3dd_base,3,0.0314,0.0313,0.0059,0.0156,0.0156,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg04_noheuristic_base,3,0.0288,0.0319,0.0058,0.0156,0.0156,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg05_baseline_adaptfix,3,0.0309,0.0334,0.0046,0.0156,0.026,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg06_v1_adaptfix,3,0.0328,0.0551,0.0334,0.0312,0.026,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg07_v3dd_adaptfix,3,0.0289,0.0295,0.0047,0.0156,0.0156,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_09,logistics.a.cnf,Application / Planning,Logistics Planning,SAT,cfg08_noheuristic_adaptfix,3,0.0316,0.0303,0.004,0.0,0.0052,62,62.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg01_baseline_base,3,0.0374,0.0372,0.0027,0.0156,0.0156,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg02_v1_base,3,0.0375,0.0379,0.0013,0.0156,0.0312,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg03_v3dd_base,3,0.0319,0.0342,0.0041,0.0156,0.0208,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg04_noheuristic_base,3,0.0301,0.034,0.0068,0.0156,0.0156,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg05_baseline_adaptfix,3,0.0349,0.0361,0.0031,0.0312,0.0312,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg06_v1_adaptfix,3,0.0325,0.0347,0.0071,0.0156,0.0208,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg07_v3dd_adaptfix,3,0.0328,0.0337,0.0033,0.0156,0.0156,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_10,logistics.b.cnf,Application / Planning,Logistics Planning,SAT,cfg08_noheuristic_adaptfix,3,0.0398,0.0387,0.005,0.0156,0.0208,227,227.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg01_baseline_base,3,0.0408,0.0407,0.0036,0.0312,0.0312,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg02_v1_base,3,0.0351,0.0364,0.0055,0.0312,0.0312,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg03_v3dd_base,3,0.0413,0.0377,0.0053,0.0156,0.0208,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg04_noheuristic_base,3,0.0367,0.0366,0.0038,0.0156,0.026,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg05_baseline_adaptfix,3,0.0388,0.0526,0.0247,0.0469,0.0469,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg06_v1_adaptfix,3,0.0418,0.0387,0.0046,0.0156,0.0208,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg07_v3dd_adaptfix,3,0.0428,0.0404,0.0051,0.0156,0.0208,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_11,logistics.c.cnf,Application / Planning,Logistics Planning,SAT,cfg08_noheuristic_adaptfix,3,0.0419,0.038,0.0065,0.0156,0.026,152,152.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg01_baseline_base,3,0.0797,0.0724,0.0115,0.0469,0.0469,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg02_v1_base,3,0.0605,0.0602,0.0065,0.0625,0.0573,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg03_v3dd_base,3,0.0598,0.0665,0.0103,0.0625,0.0625,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg04_noheuristic_base,3,0.0611,0.0625,0.0034,0.0469,0.0417,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg05_baseline_adaptfix,3,0.0668,0.0625,0.008,0.0469,0.0469,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg06_v1_adaptfix,3,0.0727,0.0812,0.0148,0.0469,0.0469,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg07_v3dd_adaptfix,3,0.0676,0.0629,0.0073,0.0469,0.0521,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_12,logistics.d.cnf,Application / Planning,Logistics Planning,SAT,cfg08_noheuristic_adaptfix,3,0.0638,0.0638,0.0093,0.0469,0.0417,33,33.0,1,0.0,0.0,0.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg01_baseline_base,3,0.0559,0.0733,0.0257,0.0781,0.0677,2643,2643.0,10,9.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg02_v1_base,3,0.1002,0.0913,0.0173,0.0625,0.0677,3422,3422.0,1,0.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg03_v3dd_base,3,0.0804,0.0777,0.008,0.0625,0.0573,3422,3422.0,1,0.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg04_noheuristic_base,3,0.0657,0.0664,0.0018,0.0469,0.0469,3422,3422.0,1,0.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg05_baseline_adaptfix,3,0.0644,0.064,0.0013,0.0469,0.0469,2498,2498.0,8,7.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg06_v1_adaptfix,3,0.0723,0.0736,0.0132,0.0625,0.0625,3105,3105.0,1,0.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg07_v3dd_adaptfix,3,0.0636,0.0661,0.0081,0.0469,0.0521,3105,3105.0,1,0.0,0.0,1.0
+HOLDOUT_13,hanoi4.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg08_noheuristic_adaptfix,3,0.0646,0.071,0.0135,0.0469,0.0521,3105,3105.0,1,0.0,0.0,1.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg01_baseline_base,3,0.2892,0.2887,0.0108,0.2344,0.224,17213,17213.0,59,58.0,0.0,3.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg02_v1_base,3,8.0994,8.0373,0.2612,7.9062,7.7812,138045,138045.0,10,9.0,0.0,10.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg03_v3dd_base,3,3.0256,3.064,0.0794,2.8906,2.9479,81327,81327.0,6,5.0,5.0,7.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg04_noheuristic_base,3,14.9579,15.2838,0.8491,14.5625,14.8229,242400,242400.0,2,1.0,0.0,13.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg05_baseline_adaptfix,3,0.1988,0.2061,0.0129,0.1875,0.1823,15407,15407.0,58,57.0,0.0,2.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg06_v1_adaptfix,3,15.8676,16.1426,1.1954,15.1875,15.474,248722,248722.0,6,5.0,0.0,13.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg07_v3dd_adaptfix,3,11.071,11.6217,0.8861,10.7188,11.2448,200682,200682.0,6,5.0,5.0,12.0
+HOLDOUT_14,hanoi5.cnf,Application / Planning,Towers of Hanoi Planning,SAT,cfg08_noheuristic_adaptfix,3,6.8246,6.7645,0.2077,6.5625,6.5365,147776,147776.0,2,1.0,0.0,10.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0257,0.0263,0.0032,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0252,0.0252,0.0016,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0264,0.0268,0.0015,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.0272,0.0268,0.0011,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0276,0.0267,0.0014,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0276,0.0324,0.0078,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0282,0.0281,0.0011,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_15,dubois20.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.0283,0.0273,0.0031,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0287,0.0296,0.0027,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0282,0.028,0.0028,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0292,0.0353,0.0095,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.0352,0.0326,0.0038,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0299,0.0294,0.0007,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0284,0.0272,0.0019,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0244,0.0299,0.0092,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_16,dubois21.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.026,0.0255,0.0024,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0266,0.0268,0.0021,0.0,0.0,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0264,0.0249,0.0025,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0306,0.0286,0.0048,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.0276,0.0284,0.0031,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0271,0.0255,0.0028,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0251,0.0425,0.0268,0.0469,0.0313,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0282,0.0259,0.0034,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_17,dubois22.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.0276,0.0264,0.0027,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0266,0.0263,0.0031,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0243,0.0244,0.0043,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0247,0.0248,0.0013,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.024,0.0244,0.0009,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0259,0.025,0.0019,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0295,0.0484,0.0313,0.0156,0.0312,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0252,0.0249,0.002,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_18,dubois27.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.0238,0.026,0.0034,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0284,0.0283,0.002,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0302,0.0368,0.0105,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0252,0.0362,0.0207,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.0321,0.0331,0.0113,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0281,0.0262,0.0039,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0307,0.0382,0.0191,0.0,0.0,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0322,0.0399,0.0184,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_19,dubois28.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.0246,0.0309,0.0116,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg01_baseline_base,3,0.0246,0.0314,0.0116,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg02_v1_base,3,0.0239,0.0234,0.0014,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg03_v3dd_base,3,0.0221,0.0241,0.0051,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg04_noheuristic_base,3,0.0234,0.0242,0.0034,0.0156,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg05_baseline_adaptfix,3,0.0265,0.0258,0.0016,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg06_v1_adaptfix,3,0.0259,0.0277,0.0041,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg07_v3dd_adaptfix,3,0.0315,0.0506,0.0284,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_20,dubois50.cnf,Crafted / Combinatorial UNSAT,Dubois Contradictions,UNSAT,cfg08_noheuristic_adaptfix,3,0.0383,0.0418,0.0111,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg01_baseline_base,3,0.0237,0.0236,0.0012,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg02_v1_base,3,0.0251,0.0241,0.0021,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg03_v3dd_base,3,0.0258,0.0256,0.0026,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0257,0.0259,0.0044,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0273,0.0276,0.0074,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.024,0.0301,0.0127,0.0,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0245,0.0253,0.005,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_21,pret150_25.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0233,0.0263,0.0063,0.0156,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg01_baseline_base,3,0.0212,0.0243,0.0054,0.0,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg02_v1_base,3,0.0193,0.0212,0.0032,0.0156,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg03_v3dd_base,3,0.0234,0.0271,0.0067,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0245,0.0268,0.0043,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0278,0.0285,0.0063,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0244,0.0243,0.002,0.0469,0.0365,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0226,0.0233,0.0049,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_22,pret60_40.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0231,0.0235,0.0054,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg01_baseline_base,3,0.0227,0.0236,0.0018,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg02_v1_base,3,0.0246,0.0259,0.0026,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg03_v3dd_base,3,0.0243,0.0247,0.0043,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0215,0.0213,0.0023,0.0312,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0226,0.0222,0.0022,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0246,0.0245,0.0022,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.022,0.0244,0.0044,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_23,pret60_60.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0226,0.0224,0.0012,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg01_baseline_base,3,0.0224,0.0257,0.006,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg02_v1_base,3,0.024,0.0247,0.002,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg03_v3dd_base,3,0.0243,0.0257,0.0035,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0222,0.0231,0.0024,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0198,0.0216,0.0027,0.0156,0.0208,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0213,0.0221,0.0027,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0246,0.0267,0.0067,0.0,0.0,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_24,pret60_75.cnf,Crafted / Combinatorial UNSAT,Pretolani Resilient UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0254,0.0242,0.003,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg01_baseline_base,3,0.0217,0.0243,0.0044,0.0,0.0,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg02_v1_base,3,0.0229,0.0239,0.0027,0.0,0.0052,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg03_v3dd_base,3,0.0199,0.0218,0.0029,0.0156,0.0208,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0223,0.0235,0.0043,0.0156,0.0104,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0247,0.0248,0.0047,0.0156,0.0208,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0201,0.0245,0.0062,0.0,0.0,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0241,0.0251,0.0034,0.0156,0.0156,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_25,aim-100-2_0-no-3.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0214,0.0226,0.0036,0.0469,0.0365,16,16.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg01_baseline_base,3,0.0212,0.0214,0.0018,0.0,0.0052,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg02_v1_base,3,0.0225,0.0231,0.0036,0.0156,0.0156,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg03_v3dd_base,3,0.0222,0.0223,0.0027,0.0156,0.0208,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0235,0.0244,0.0026,0.0156,0.0104,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0209,0.0245,0.0054,0.0,0.0052,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0224,0.0279,0.008,0.0,0.0052,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0338,0.0512,0.0339,0.0156,0.0156,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_26,aim-100-2_0-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.0265,0.0265,0.0057,0.0,0.0052,14,14.0,1,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg01_baseline_base,3,0.0233,0.0235,0.0028,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg02_v1_base,3,0.0231,0.0247,0.0029,0.0156,0.026,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg03_v3dd_base,3,0.0203,0.0233,0.0042,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg04_noheuristic_base,3,0.0205,0.0233,0.0048,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0222,0.023,0.0036,0.0156,0.0104,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0251,0.0251,0.0032,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.0273,0.0473,0.0316,0.0,0.0,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_27,aim-50-1_6-no-1.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.022,0.0252,0.005,0.0,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg01_baseline_base,3,0.0257,0.0261,0.0046,0.0156,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg02_v1_base,3,0.0221,0.0232,0.0036,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg03_v3dd_base,3,0.0222,0.0241,0.005,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg04_noheuristic_base,3,0.025,0.0243,0.0037,0.0,0.0156,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg05_baseline_adaptfix,3,0.0219,0.0236,0.003,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg06_v1_adaptfix,3,0.0209,0.0293,0.0126,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg07_v3dd_adaptfix,3,0.02,0.0226,0.004,0.0312,0.0364,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_28,aim-50-1_6-no-4.cnf,Crafted / Combinatorial UNSAT,AIM Artificial UNSAT,UNSAT,cfg08_noheuristic_adaptfix,3,0.02,0.0235,0.0061,0.0,0.0052,0,0.0,0,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg01_baseline_base,3,0.0268,0.0255,0.0021,0.0156,0.0156,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg02_v1_base,3,0.0206,0.0227,0.0034,0.0156,0.0208,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg03_v3dd_base,3,0.0215,0.023,0.0028,0.0,0.0052,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg04_noheuristic_base,3,0.0238,0.0412,0.0259,0.0156,0.0104,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg05_baseline_adaptfix,3,0.0223,0.0278,0.0091,0.0156,0.0156,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg06_v1_adaptfix,3,0.0289,0.0279,0.004,0.0156,0.0104,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg07_v3dd_adaptfix,3,0.0267,0.0269,0.0054,0.0469,0.0365,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_29,flat100-11.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg08_noheuristic_adaptfix,3,0.0251,0.0262,0.0061,0.0156,0.0208,25,25.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg01_baseline_base,3,0.0212,0.0233,0.0036,0.0156,0.0208,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg02_v1_base,3,0.0214,0.0237,0.0041,0.0156,0.0208,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg03_v3dd_base,3,0.0254,0.026,0.0029,0.0,0.0104,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg04_noheuristic_base,3,0.0233,0.0261,0.0048,0.0156,0.0156,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg05_baseline_adaptfix,3,0.0229,0.0249,0.0038,0.0156,0.0208,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg06_v1_adaptfix,3,0.0227,0.0306,0.0116,0.0156,0.0208,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg07_v3dd_adaptfix,3,0.0236,0.0255,0.0033,0.0156,0.0156,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_30,flat100-31.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg08_noheuristic_adaptfix,3,0.0226,0.023,0.002,0.0156,0.0104,80,80.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg01_baseline_base,3,0.0226,0.0259,0.005,0.0156,0.0156,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg02_v1_base,3,0.025,0.0261,0.0048,0.0312,0.0312,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg03_v3dd_base,3,0.0266,0.0245,0.003,0.0156,0.0156,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg04_noheuristic_base,3,0.0271,0.0255,0.0039,0.0,0.0104,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg05_baseline_adaptfix,3,0.0277,0.0309,0.0071,0.0156,0.0156,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg06_v1_adaptfix,3,0.0252,0.0263,0.0058,0.0156,0.0104,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg07_v3dd_adaptfix,3,0.0302,0.0293,0.0066,0.0156,0.0156,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_31,flat100-73.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg08_noheuristic_adaptfix,3,0.0235,0.0275,0.0058,0.0312,0.0312,55,55.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg01_baseline_base,3,0.0295,0.027,0.005,0.0156,0.0104,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg02_v1_base,3,0.0225,0.0246,0.0037,0.0156,0.0156,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg03_v3dd_base,3,0.0228,0.0253,0.0036,0.0,0.0156,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg04_noheuristic_base,3,0.0237,0.0269,0.0069,0.0156,0.0104,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg05_baseline_adaptfix,3,0.023,0.0275,0.0081,0.0,0.0052,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg06_v1_adaptfix,3,0.0225,0.0248,0.0046,0.0156,0.0156,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg07_v3dd_adaptfix,3,0.0244,0.0249,0.0012,0.0156,0.0104,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_32,flat100-91.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (100v),SAT,cfg08_noheuristic_adaptfix,3,0.0238,0.0245,0.0022,0.0312,0.0312,46,46.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg01_baseline_base,3,0.0303,0.0296,0.0028,0.0156,0.0156,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg02_v1_base,3,0.035,0.0339,0.0045,0.0312,0.0312,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg03_v3dd_base,3,0.0298,0.0291,0.0039,0.0156,0.0208,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg04_noheuristic_base,3,0.0276,0.0291,0.0036,0.0156,0.026,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg05_baseline_adaptfix,3,0.0272,0.0278,0.003,0.0156,0.0104,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg06_v1_adaptfix,3,0.0268,0.0276,0.0028,0.0156,0.0208,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg07_v3dd_adaptfix,3,0.0406,0.0477,0.0232,0.0156,0.0312,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_33,flat150-57.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg08_noheuristic_adaptfix,3,0.0273,0.0302,0.0067,0.0156,0.0208,435,435.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg01_baseline_base,3,0.0271,0.0293,0.0071,0.0156,0.0104,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg02_v1_base,3,0.0275,0.0291,0.0028,0.0156,0.0104,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg03_v3dd_base,3,0.0264,0.0261,0.004,0.0156,0.0156,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg04_noheuristic_base,3,0.0236,0.0254,0.0043,0.0,0.0052,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg05_baseline_adaptfix,3,0.0232,0.0255,0.0037,0.0156,0.0156,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg06_v1_adaptfix,3,0.0248,0.0266,0.0032,0.0156,0.0156,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg07_v3dd_adaptfix,3,0.0231,0.0258,0.0041,0.0156,0.0156,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_34,flat150-71.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg08_noheuristic_adaptfix,3,0.0267,0.0268,0.0013,0.0156,0.0104,95,95.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg01_baseline_base,3,0.0221,0.0255,0.0051,0.0,0.0052,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg02_v1_base,3,0.0281,0.0293,0.0058,0.0156,0.0104,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg03_v3dd_base,3,0.0288,0.0296,0.0039,0.0156,0.0156,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg04_noheuristic_base,3,0.025,0.0285,0.0053,0.0156,0.0156,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg05_baseline_adaptfix,3,0.0261,0.0277,0.0025,0.0156,0.0104,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg06_v1_adaptfix,3,0.0244,0.0255,0.0023,0.0156,0.0104,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg07_v3dd_adaptfix,3,0.0231,0.0265,0.0056,0.0156,0.0104,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_35,flat150-84.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg08_noheuristic_adaptfix,3,0.0287,0.0283,0.004,0.0156,0.0104,154,154.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg01_baseline_base,3,0.0303,0.0311,0.0042,0.0156,0.0208,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg02_v1_base,3,0.0315,0.0313,0.0007,0.0156,0.0156,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg03_v3dd_base,3,0.03,0.0296,0.0032,0.0156,0.0208,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg04_noheuristic_base,3,0.028,0.0273,0.0013,0.0156,0.0156,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg05_baseline_adaptfix,3,0.0294,0.0301,0.0047,0.0156,0.0156,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg06_v1_adaptfix,3,0.0283,0.029,0.0029,0.0312,0.0312,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg07_v3dd_adaptfix,3,0.0294,0.0565,0.0394,0.0156,0.0156,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_36,flat150-89.cnf,Combinatorial / Graph Coloring,Flat Graph 3-Coloring (150v),SAT,cfg08_noheuristic_adaptfix,3,0.0314,0.0315,0.0028,0.0156,0.0156,333,333.0,1,0.0,0.0,0.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.2274,0.2351,0.0221,0.2031,0.1979,13703,13703.0,1,0.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.1845,0.1849,0.0051,0.1719,0.1771,11396,11396.0,2,1.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.2107,0.2094,0.0018,0.1875,0.1927,13703,13703.0,1,0.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.2515,0.2465,0.0223,0.2031,0.2083,13703,13703.0,1,0.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.1287,0.132,0.014,0.1094,0.1146,7938,7938.0,2,1.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.3819,0.3944,0.0183,0.3906,0.3906,19732,19732.0,2,1.0,0.0,3.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.1989,0.2029,0.0106,0.1875,0.1875,12219,12219.0,1,0.0,0.0,2.0
+HOLDOUT_37,uf200-01.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.1882,0.1935,0.0152,0.1719,0.1771,12219,12219.0,1,0.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.2762,0.2855,0.014,0.2656,0.2708,13806,13806.0,3,2.0,0.0,3.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.163,0.1638,0.0052,0.125,0.1302,10222,10222.0,1,0.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.1495,0.1504,0.0028,0.1406,0.151,10222,10222.0,1,0.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.1623,0.1784,0.0266,0.1562,0.151,10222,10222.0,1,0.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.2145,0.2133,0.0041,0.1875,0.1927,10104,10104.0,4,3.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.1863,0.1968,0.0199,0.1719,0.1719,8211,8211.0,2,1.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.1245,0.1244,0.0018,0.1094,0.1042,9026,9026.0,1,0.0,0.0,2.0
+HOLDOUT_38,uf200-034.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.1254,0.1232,0.0062,0.1094,0.1146,9026,9026.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.275,0.2708,0.0097,0.2656,0.25,15067,15067.0,7,6.0,0.0,3.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.132,0.1328,0.0029,0.1094,0.1146,9627,9627.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.1365,0.1365,0.0073,0.125,0.1198,9627,9627.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.1317,0.1318,0.0013,0.1094,0.1094,9627,9627.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.1117,0.1218,0.0216,0.1094,0.1146,8054,8054.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.1143,0.1186,0.0075,0.1094,0.1042,8054,8054.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.1161,0.1193,0.0061,0.1094,0.1042,8054,8054.0,1,0.0,0.0,2.0
+HOLDOUT_39,uf200-040.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.1173,0.1507,0.0505,0.125,0.125,8054,8054.0,1,0.0,0.0,2.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.3196,0.3069,0.0214,0.2969,0.2865,16879,16879.0,6,5.0,0.0,3.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.3325,0.3317,0.014,0.3125,0.3125,19258,19258.0,2,1.0,0.0,3.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.2069,0.2045,0.0164,0.1719,0.1719,11768,11768.0,1,0.0,0.0,2.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.1839,0.1829,0.0121,0.1719,0.1771,11768,11768.0,1,0.0,0.0,2.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.5318,0.5191,0.0298,0.5156,0.5,25385,25385.0,4,3.0,0.0,4.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.1971,0.1961,0.0069,0.2031,0.2031,11016,11016.0,2,1.0,0.0,2.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.2698,0.2693,0.004,0.25,0.2552,17804,17804.0,1,0.0,0.0,3.0
+HOLDOUT_40,uf200-060.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.2698,0.2839,0.0255,0.25,0.2604,17804,17804.0,1,0.0,0.0,3.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.2807,0.3045,0.0363,0.2969,0.2865,16969,16969.0,3,2.0,0.0,3.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.2305,0.2509,0.0365,0.2031,0.2135,15237,15237.0,2,1.0,0.0,3.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.2603,0.2713,0.0207,0.25,0.2604,18703,18703.0,1,0.0,0.0,3.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.2662,0.2706,0.0151,0.2969,0.2813,18703,18703.0,1,0.0,0.0,3.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.1698,0.1697,0.0023,0.1406,0.1354,8864,8864.0,6,5.0,0.0,2.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.076,0.0782,0.0079,0.0625,0.0625,3719,3719.0,2,1.0,0.0,1.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.2177,0.2124,0.0147,0.1875,0.1927,12846,12846.0,1,0.0,0.0,2.0
+HOLDOUT_41,uf200-077.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.1991,0.2034,0.018,0.1719,0.1719,12846,12846.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg01_baseline_base,3,0.1847,0.1847,0.0084,0.1719,0.1771,12113,12113.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg02_v1_base,3,0.2526,0.2643,0.024,0.2344,0.2448,17169,17169.0,2,1.0,0.0,3.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg03_v3dd_base,3,0.1926,0.2225,0.0496,0.1719,0.1719,12113,12113.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg04_noheuristic_base,3,0.2125,0.1997,0.0209,0.1719,0.1667,12113,12113.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg05_baseline_adaptfix,3,0.1779,0.1718,0.0117,0.2031,0.1823,10997,10997.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg06_v1_adaptfix,3,0.1974,0.198,0.0055,0.1719,0.1771,12663,12663.0,2,1.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg07_v3dd_adaptfix,3,0.1562,0.1552,0.0028,0.1406,0.1406,10997,10997.0,1,0.0,0.0,2.0
+HOLDOUT_42,uf200-097.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, SAT)",SAT,cfg08_noheuristic_adaptfix,3,0.1609,0.1811,0.0311,0.1406,0.151,10997,10997.0,1,0.0,0.0,2.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.3393,0.3547,0.0347,0.3438,0.349,19119,19119.0,13,12.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.2285,0.2279,0.0126,0.2188,0.2136,15924,15924.0,1,0.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.2184,0.2276,0.0195,0.2031,0.2135,15924,15924.0,1,0.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.2726,0.2717,0.0345,0.2344,0.2292,15924,15924.0,1,0.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.4675,0.4533,0.0386,0.4531,0.4167,21139,21139.0,15,14.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.3935,0.3975,0.0066,0.3906,0.3854,21572,21572.0,4,3.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.2712,0.2819,0.0261,0.2656,0.2656,18710,18710.0,1,0.0,0.0,3.0
+HOLDOUT_43,uuf200-027.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.2628,0.2779,0.0253,0.2656,0.2708,18710,18710.0,1,0.0,0.0,3.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.6948,0.7176,0.0681,0.6562,0.6979,35632,35632.0,3,2.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.7643,0.7819,0.0251,0.7188,0.724,36236,36236.0,2,1.0,0.0,5.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.6335,0.6363,0.0071,0.5938,0.5886,35779,35779.0,1,0.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.6574,0.6809,0.0473,0.625,0.6563,35779,35779.0,1,0.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.7053,0.6826,0.0356,0.6406,0.625,33066,33066.0,4,3.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.6304,0.6533,0.034,0.6094,0.6354,32002,32002.0,2,1.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.6547,0.6272,0.0416,0.5781,0.5677,33251,33251.0,1,0.0,0.0,4.0
+HOLDOUT_44,uuf200-028.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.5877,0.6089,0.0675,0.5781,0.5521,33251,33251.0,1,0.0,0.0,4.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.4291,0.4392,0.0165,0.4062,0.4166,23960,23960.0,9,8.0,0.0,4.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.3516,0.3581,0.0254,0.3281,0.3385,20884,20884.0,2,1.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.2934,0.2993,0.0248,0.25,0.2656,19913,19913.0,1,0.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.2992,0.3016,0.0287,0.25,0.2552,19913,19913.0,1,0.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.3528,0.3572,0.0108,0.3438,0.3438,20813,20813.0,6,5.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.3324,0.3182,0.0306,0.2969,0.3021,20839,20839.0,1,0.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.3138,0.3302,0.0318,0.3281,0.3229,20839,20839.0,1,0.0,0.0,3.0
+HOLDOUT_45,uuf200-041.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.3127,0.3244,0.0279,0.2969,0.2865,20839,20839.0,1,0.0,0.0,3.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.4827,0.4717,0.0582,0.375,0.3958,23954,23954.0,5,4.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.5361,0.5432,0.016,0.5156,0.5208,31558,31558.0,1,0.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.5261,0.5651,0.0576,0.5156,0.5417,31558,31558.0,1,0.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.5215,0.5582,0.0638,0.5,0.5052,31558,31558.0,1,0.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.3979,0.3986,0.0143,0.375,0.3906,24702,24702.0,2,1.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.44,0.4297,0.0224,0.3906,0.3958,24182,24182.0,2,1.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.5926,0.5966,0.0233,0.5781,0.5937,33326,33326.0,1,0.0,0.0,4.0
+HOLDOUT_46,uuf200-049.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.5825,0.5859,0.025,0.5469,0.5573,33326,33326.0,1,0.0,0.0,4.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.3485,0.3519,0.0411,0.3281,0.3333,20438,20438.0,2,1.0,0.0,3.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.5038,0.5084,0.0539,0.5156,0.5156,26981,26981.0,2,1.0,0.0,4.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.3402,0.3407,0.0343,0.2969,0.3177,20898,20898.0,1,0.0,0.0,3.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.3393,0.3277,0.0199,0.3594,0.3333,20898,20898.0,1,0.0,0.0,3.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.3241,0.3118,0.0342,0.2656,0.2812,19009,19009.0,1,0.0,0.0,3.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.559,0.5444,0.025,0.5,0.5104,25907,25907.0,3,2.0,0.0,4.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.3095,0.3176,0.0354,0.2969,0.2917,19009,19009.0,1,0.0,0.0,3.0
+HOLDOUT_47,uuf200-059.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.358,0.3379,0.0307,0.2812,0.2916,19009,19009.0,1,0.0,0.0,3.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg01_baseline_base,3,0.4908,0.4806,0.0297,0.4844,0.4636,25464,25464.0,5,4.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg02_v1_base,3,0.4977,0.495,0.0052,0.4531,0.4427,28190,28190.0,1,0.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg03_v3dd_base,3,0.4669,0.4689,0.0045,0.4688,0.4688,28190,28190.0,1,0.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg04_noheuristic_base,3,0.4497,0.4538,0.0086,0.4375,0.4427,28190,28190.0,1,0.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg05_baseline_adaptfix,3,0.4942,0.4995,0.0089,0.4688,0.4636,26127,26127.0,4,3.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg06_v1_adaptfix,3,0.45,0.4682,0.0386,0.4375,0.4427,27330,27330.0,1,0.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg07_v3dd_adaptfix,3,0.4492,0.4724,0.039,0.4219,0.4375,27330,27330.0,1,0.0,0.0,4.0
+HOLDOUT_48,uuf200-090.cnf,Random 3-SAT,"Uniform Random 3-SAT (n=200, UNSAT)",UNSAT,cfg08_noheuristic_adaptfix,3,0.4733,0.4606,0.0235,0.4531,0.4427,27330,27330.0,1,0.0,0.0,4.0

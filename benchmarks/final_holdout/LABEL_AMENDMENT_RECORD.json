@@ -1,0 +1,54 @@
+{
+  "amendment_date_utc": "2026-10-31T17:58:00Z",
+  "amendment_type": "GROUND_TRUTH_METADATA_CORRECTION",
+  "reason": "Clerical inversion of circuit test pattern boolean labels in Step 34 acquire_holdout_suite.py. Independent literature confirms undetectable bridging and stuck-at faults yield UNSAT formulas, while testable fault ssa7552-158 yields SAT.",
+  "amended_entries": [
+    {
+      "benchmark_id": "HOLDOUT_02",
+      "filename": "bf1355-075.cnf",
+      "original_label": "SAT",
+      "corrected_label": "UNSAT",
+      "supporting_source": "DIMACS Challenge 1993 / Chakradhar et al.; UBC SATLIB Table",
+      "source_url": "https://www.cs.ubc.ca/~hoos/SATLIB/Benchmarks/SAT/DIMACS/BF/"
+    },
+    {
+      "benchmark_id": "HOLDOUT_05",
+      "filename": "ssa0432-003.cnf",
+      "original_label": "SAT",
+      "corrected_label": "UNSAT",
+      "supporting_source": "DIMACS Challenge 1993 / Chakradhar et al.; Princeton DIMACS Archive",
+      "source_url": "https://www.cs.princeton.edu/~zkincaid/benchmarks/DIMACS/SSA/"
+    },
+    {
+      "benchmark_id": "HOLDOUT_06",
+      "filename": "ssa2670-130.cnf",
+      "original_label": "SAT",
+      "corrected_label": "UNSAT",
+      "supporting_source": "DIMACS Challenge 1993 / Chakradhar et al.; CWI SATLIB Archive",
+      "source_url": "https://www.cs.ubc.ca/~hoos/SATLIB/Benchmarks/SAT/DIMACS/SSA/"
+    },
+    {
+      "benchmark_id": "HOLDOUT_07",
+      "filename": "ssa2670-141.cnf",
+      "original_label": "SAT",
+      "corrected_label": "UNSAT",
+      "supporting_source": "DIMACS Challenge 1993 / Chakradhar et al.; SATLIB Archive",
+      "source_url": "https://www.cs.ubc.ca/~hoos/SATLIB/Benchmarks/SAT/DIMACS/SSA/"
+    },
+    {
+      "benchmark_id": "HOLDOUT_08",
+      "filename": "ssa7552-158.cnf",
+      "original_label": "UNKNOWN",
+      "corrected_label": "SAT",
+      "supporting_source": "DIMACS Challenge 1993 / Chakradhar et al.; Princeton Benchmark Suite",
+      "source_url": "https://www.cs.princeton.edu/~zkincaid/benchmarks/DIMACS/SSA/"
+    }
+  ],
+  "dataset_totals_after_amendment": {
+    "total_benchmarks": 48,
+    "SAT": 21,
+    "UNSAT": 27,
+    "UNKNOWN": 0
+  }
+}
+

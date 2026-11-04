@@ -1,0 +1,53 @@
+=== BENCHMARK RUN LOG ===
+Timestamp UTC: 2026-10-31T06:17:32.266966+00:00
+Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive-v2 -v2-quality-fallback=0 -v2-conflict-ceiling=1 -v2-max-conflicts=2500 -reduce-strategy=adaptive D:\DAC_203@Project\benchmarks\expanded\gcol_unsat_k10_c9.cnf
+Timeout Limit: 15.0s
+Timed Out: True
+Exit Code: TIMEOUT
+Status: TIMEOUT
+Wall Time: 15.032257s
+
+--- STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:            90                                                                   |
+c |  Number of clauses:             775                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * Strategy     : adaptive-v2  |   * First     :   2000         |    * size <  30                     |
+c |   * Fallback LBD :    off      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * Ceiling      :     on      |   * Special   :   1000         |                                     |
+c |   * Max Conflicts:   2500      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |        4         0     2500 |      80      685     2000 |     2     6209        0     3790 |  0.173 % |
+c |        8         0     2500 |      80      685     2000 |     3    11204        0     8795 |  0.013 % |
+c |       12         0     2500 |      80      685     2000 |     4    13801        0    16198 |  0.212 % |
+c |       16         0     2500 |      80      685     2000 |     5    13904        0    26095 |  0.013 % |
+c |       20         0     2500 |      80      685     2000 |     5    23904        0    26095 |  0.012 % |
+c |       24         0     2500 |      80      685     2000 |     6    21451        0    38548 |  0.012 % |
+c |       28         0     2500 |      80      685     2000 |     7    16424        0    53575 |  0.014 % |
+c |       32         0     2500 |      80      685     2000 |     7    26424        0    53575 |  0.212 % |
+c |       36         0     2500 |      80      685     2000 |     8    18812        0    71187 |  0.199 % |
+c |       40         0     2500 |      80      685     2000 |     8    28812        1    71187 | 
+--- STDERR ---
+(none)

@@ -1,0 +1,64 @@
+=== COMMAND: D:\DAC_203@Project\src\glucose_windows\glucose-portfolio-mab.exe -restart-strategy=baseline -reduce-strategy=baseline -model D:\DAC_203@Project\benchmarks\expanded\php_10p_8h.cnf ===
+=== EXIT STATUS: COMPLETE ===
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:            80                                                                   |
+c |  Number of clauses:             370                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * LBD Queue    :     50      |   * First     :   2000         |    * size <  30                     |
+c |   * Trail  Queue :   5000      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * K            :   0.80      |   * Special   :   1000         |                                     |
+c |   * R            :   1.40      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |       21         0      476 |      70      360     1260 |     2     6207        0     3792 |  0.110 % |
+c |       38         0      526 |      70      360     1260 |     3    11208        1     8791 |  0.157 % |
+c |       57         0      526 |      70      360     1260 |     4    13804        8    16195 |  0.189 % |
+c |       96         0      416 |      70      360     1260 |     5    13902       15    26097 |  0.110 % |
+c |      132         0      378 |      67      351     1224 |     5    20788       38    26097 |  3.766 % |
+c |      167         0      359 |      62      291     1050 |     6    12744       79    36991 | 10.203 % |
+c =========================================================================================================
+c restarts              : 167 (362 conflicts in avg)
+c genuine restarts      : 166
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : baseline
+c v3 shadow             : disabled
+c qre shadow            : disabled
+c portfolio shadow      : disabled
+c reduction strategy    : baseline
+c nb ReduceDB           : 6
+c nb removed Clauses    : 36991
+c average learnt size   : 16
+c nb learnts DL2        : 96
+c nb learnts size 2     : 85
+c nb learnts size 1     : 15
+c conflicts             : 60580          (31780 /sec)
+c decisions             : 72843          (0.00 % random) (38213 /sec)
+c propagations          : 609879         (319937 /sec)
+c nb reduced Clauses    : 2332
+c LCM                   : 5015 / 8244 
+c Memory used           : 10.78 MB
+c CPU time              : 1.90625 s
+
+s UNSATISFIABLE

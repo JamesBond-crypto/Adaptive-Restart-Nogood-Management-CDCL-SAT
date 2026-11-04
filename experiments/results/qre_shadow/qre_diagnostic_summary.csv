@@ -1,0 +1,17 @@
+id,benchmark,category,path,status,conflicts,decisions,shocks_observed,raw_sharpe,raw_var,raw_both,supp_sharpe_startup,supp_var_startup,supp_sharpe_cd,supp_var_cd,eligible_sharpe,eligible_var,eligible_either,eligible_both,min_sharpe,max_var95,final_cmin,v3_hyp_events_total,v3_hyp_events_drawdown,v3_max_drawdown,clean_wall_time_s,shadow_wall_time_s,overhead_pct
+DEV_01,test_sat.cnf,Trivial,benchmarks/smoke_test/test_sat.cnf,SATISFIABLE,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,14,0,0,0.0,0.0192,0.0192,0.0
+DEV_02,test_unsat.cnf,Trivial,benchmarks/smoke_test/test_unsat.cnf,UNSATISFIABLE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,14,0,0,0.0,0.019,0.0169,-11.05
+DEV_03,planted3sat_n60_c256_s501.cnf,Trivial,benchmarks/pilot/planted3sat_n60_c256_s501.cnf,SATISFIABLE,3,18,3,0,0,0,0,2,0,0,0,0,0,0,0.0,0.0,14,0,0,0.0,0.0162,0.0174,7.41
+DEV_04,gcol_sat_n30_k3_m90_s3001.cnf,Trivial,benchmarks/expanded/gcol_sat_n30_k3_m90_s3001.cnf,SATISFIABLE,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,14,0,0,0.0,0.0165,0.0168,1.82
+DEV_05,rand3sat_n50_c213_s101.cnf,Medium_Random,benchmarks/pilot/rand3sat_n50_c213_s101.cnf,SATISFIABLE,43,60,43,5,26,4,5,4,0,0,5,26,27,4,-1.6691,7.0,14,0,0,0.1536,0.0206,0.0164,-20.39
+DEV_06,rand3sat_n75_c320_s201.cnf,Medium_Random,benchmarks/pilot/rand3sat_n75_c320_s201.cnf,SATISFIABLE,16,30,16,0,2,0,0,6,0,0,0,2,2,0,-0.7596,7.0,14,0,0,0.0537,0.0163,0.0181,11.04
+DEV_07,php_6p_5h.cnf,Medium_Pigeonhole,benchmarks/pilot/php_6p_5h.cnf,UNSATISFIABLE,145,175,144,16,76,11,6,7,0,1,16,75,80,11,-1.161,10.0,14,0,0,0.4018,0.0172,0.021,22.09
+DEV_08,gcol_unsat_grotzsch_k3.cnf,Medium_GraphColoring,benchmarks/expanded/gcol_unsat_grotzsch_k3.cnf,UNSATISFIABLE,24,26,23,0,0,0,3,1,0,0,0,0,0,0,-0.8281,4.0,14,0,0,0.0422,0.0162,0.017,4.94
+DEV_09,php_7p_6h.cnf,Hard_Pigeonhole,benchmarks/pilot/php_7p_6h.cnf,UNSATISFIABLE,932,1139,931,250,390,121,0,8,1,11,249,379,507,121,-1.8692,15.0,16,0,0,0.6514,0.0197,0.02,1.52
+DEV_10,php_8p_7h.cnf,Hard_Pigeonhole,benchmarks/pilot/php_8p_7h.cnf,UNSATISFIABLE,6716,7977,6715,1764,2336,686,0,9,52,89,1712,2247,3295,664,-2.9333,20.0,21,5,0,0.7168,0.0737,0.0877,19.0
+DEV_11,php_9p_7h.cnf,Hard_Pigeonhole,benchmarks/expanded/php_9p_7h.cnf,UNSATISFIABLE,6984,8362,6983,1956,2492,751,0,9,79,118,1877,2374,3545,706,-3.4158,24.0,22,7,0,0.7202,0.0587,0.0632,7.67
+DEV_12,php_10p_8h.cnf,Hard_Pigeonhole,benchmarks/expanded/php_10p_8h.cnf,UNSATISFIABLE,60580,72843,60579,18374,12997,4280,0,9,884,1097,17490,11900,25359,4031,-4.3165,33.0,28,58,0,0.7458,1.2022,1.3886,15.5
+DEV_13,rand3sat_n100_c426_s301.cnf,Hard_Random,benchmarks/pilot/rand3sat_n100_c426_s301.cnf,SATISFIABLE,411,507,411,148,216,106,0,8,0,0,148,216,258,106,-5.4971,8.0,14,0,0,0.4357,0.0181,0.0275,51.93
+DEV_14,rand3sat_n125_c532_s401.cnf,Hard_Random,benchmarks/pilot/rand3sat_n125_c532_s401.cnf,SATISFIABLE,105,152,105,23,84,22,0,6,0,2,23,82,83,22,-5.5364,12.0,14,0,0,0.4901,0.0164,0.0239,45.73
+DEV_15,rand3sat_n150_c639_s1001.cnf,Hard_Random,benchmarks/expanded/rand3sat_n150_c639_s1001.cnf,UNSATISFIABLE,5637,6594,5636,2248,2462,1117,0,6,12,16,2236,2446,3573,1109,-10.1333,13.0,17,5,0,0.5897,0.0526,0.0547,3.99
+DEV_16,rand3sat_n175_c735_s1003.cnf,Hard_Random,benchmarks/expanded/rand3sat_n175_c735_s1003.cnf,SATISFIABLE,3916,4622,3916,1552,1432,663,0,8,0,2,1552,1430,2319,663,-9.7713,15.0,14,29,0,0.4931,0.0405,0.0493,21.73

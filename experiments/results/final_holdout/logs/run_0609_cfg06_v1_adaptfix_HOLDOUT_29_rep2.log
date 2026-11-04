@@ -1,0 +1,86 @@
+c --- EXECUTION RUN METADATA ---
+c Run ID: run_0609_cfg06_v1_adaptfix_HOLDOUT_29_rep2
+c Execution Order: 609
+c Repetition: 2
+c Configuration ID: cfg06_v1_adaptfix
+c Benchmark ID: HOLDOUT_29 (flat100-11.cnf)
+c Authoritative Label: SAT
+c Status: SAT (VERIFIED_SAT)
+c Exit Code: 10
+c Wall Time (s): 0.0225
+c Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive -reduce-strategy=adaptive-fixed D:\DAC_203@Project\benchmarks\final_holdout\flat100-11.cnf
+c --- SOLVER STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:           300                                                                   |
+c |  Number of clauses:            1117                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * Strategy     :   adaptive   |   * First     :   2000         |    * size <  30                     |
+c |   * Theta        :   0.60      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * Min Interval :     50      |   * Special   :   1000         |                                     |
+c |   * Warmup       :    100      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c last restart ## conflicts  :  25 17 
+c =========================================================================================================
+c restarts              : 1 (25 conflicts in avg)
+c genuine restarts      : 0
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : adaptive (theta=0.60, min_interval=50, warmup=100)
+c adaptive restart requests: 0
+c adaptive restarts     : 0
+c last adaptive score   : 0.0000 (global: 0.0000)
+c v3 shadow             : disabled
+c reduction strategy    : adaptive-fixed
+c adapt reduce calls    : 0
+c adapt clauses ranked  : 0
+c adapt clauses eligible: 0
+c adapt clauses removed : 0
+c adapt spared locked   : 0
+c adapt spared binary   : 0
+c adapt spared glue     : 0
+c adapt spared canbedel : 0
+c adapt last retained   : 0
+c adapt last avg ret LBD: 0.00
+c adapt last avg del LBD: 0.00
+c adapt reduce time     : 0.0000 s
+c adapt postpone evals  : 0
+c adapt postpone sat    : 0
+c adapt postpone inc db : 0
+c nb ReduceDB           : 0
+c nb removed Clauses    : 0
+c average learnt size   : 7
+c nb learnts DL2        : 3
+c nb learnts size 2     : 0
+c nb learnts size 1     : 0
+c conflicts             : 25             (inf /sec)
+c decisions             : 46             (0.00 % random) (inf /sec)
+c propagations          : 846            (inf /sec)
+c nb reduced Clauses    : 1
+c LCM                   : 0 / 0 
+c Memory used           : 6.54 MB
+c CPU time              : 0 s
+
+s SATISFIABLE
+v 1 -2 -3 4 -5 -6 7 -8 -9 10 -11 -12 13 -14 -15 16 -17 -18 19 -20 -21 22 -23 -24 25 -26 -27 -28 -29 30 -31 32 -33 34 -35 -36 37 -38 -39 -40 41 -42 43 -44 -45 46 -47 -48 -49 50 -51 52 -53 -54 -55 -56 57 58 -59 -60 61 -62 -63 64 -65 -66 -67 68 -69 70 -71 -72 73 -74 -75 76 -77 -78 79 -80 -81 82 -83 -84 85 -86 -87 88 -89 -90 -91 92 -93 94 -95 -96 97 -98 -99 100 -101 -102 -103 -104 105 -106 -107 108 -109 110 -111 112 -113 -114 -115 -116 117 -118 -119 120 -121 -122 123 -124 -125 126 -127 -128 129 -130 -131 132 -133 134 -135 -136 -137 138 -139 -140 141 142 -143 -144 -145 -146 147 -148 -149 150 -151 -152 153 -154 -155 156 -157 -158 159 -160 -161 162 -163 -164 165 -166 -167 168 -169 -170 171 -172 -173 174 -175 -176 177 -178 179 -180 -181 -182 183 -184 -185 186 -187 -188 189 -190 -191 192 -193 -194 195 -196 -197 198 -199 -200 201 202 -203 -204 -205 206 -207 208 -209 -210 -211 212 -213 -214 215 -216 -217 -218 219 -220 221 -222 -223 224 -225 -226 227 -228 -229 230 -231 -232 -233 234 -235 236 -237 -238 239 -240 -241 242 -243 -244 245 -246 -247 248 -249 -250 251 -252 253 -254 -255 -256 257 -258 -259 -260 261 -262 263 -264 -265 266 -267 -268 269 -270 -271 272 -273 -274 275 -276 -277 278 -279 -280 281 -282 -283 284 -285 -286 287 -288 -289 -290 291 -292 293 -294 -295 296 -297 -298 299 -300 0

@@ -1,0 +1,86 @@
+c --- EXECUTION RUN METADATA ---
+c Run ID: run_1142_cfg06_v1_adaptfix_HOLDOUT_47_rep3
+c Execution Order: 1142
+c Repetition: 3
+c Configuration ID: cfg06_v1_adaptfix
+c Benchmark ID: HOLDOUT_47 (uuf200-059.cnf)
+c Authoritative Label: UNSAT
+c Status: UNSAT (VERIFIED_UNSAT)
+c Exit Code: 20
+c Wall Time (s): 0.5092
+c Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive -reduce-strategy=adaptive-fixed D:\DAC_203@Project\benchmarks\final_holdout\uuf200-059.cnf
+c --- SOLVER STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:           200                                                                   |
+c |  Number of clauses:             860                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * Strategy     :   adaptive   |   * First     :   2000         |    * size <  30                     |
+c |   * Theta        :   0.60      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * Min Interval :     50      |   * Special   :   1000         |                                     |
+c |   * Warmup       :    100      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |        2         0     5000 |     198      858     2581 |     2     6199       67     3800 |  0.003 % |
+c |        2       159    10000 |     197      851     2560 |     3     7085      112     8802 |  0.503 % |
+c =========================================================================================================
+c restarts              : 3 (8635 conflicts in avg)
+c genuine restarts      : 2
+c blocked restarts      : 251 (multiple: 2) 
+c last block at restart : 3
+c restart strategy      : adaptive (theta=0.60, min_interval=50, warmup=100)
+c adaptive restart requests: 2
+c adaptive restarts     : 2
+c last adaptive score   : 10.9367 (global: 8.3869)
+c v3 shadow             : disabled
+c reduction strategy    : adaptive-fixed
+c adapt reduce calls    : 4
+c adapt clauses ranked  : 26026
+c adapt clauses eligible: 13933
+c adapt clauses removed : 13011
+c adapt spared locked   : 1
+c adapt spared binary   : 0
+c adapt spared glue     : 0
+c adapt spared canbedel : 921
+c adapt last retained   : 4209
+c adapt last avg ret LBD: 3.39
+c adapt last avg del LBD: 6.90
+c adapt reduce time     : 0.0000 s
+c adapt postpone evals  : 4
+c adapt postpone sat    : 4
+c adapt postpone inc db : 4000
+c nb ReduceDB           : 4
+c nb removed Clauses    : 13011
+c average learnt size   : 10
+c nb learnts DL2        : 203
+c nb learnts size 2     : 63
+c nb learnts size 1     : 13
+c conflicts             : 25907          (51814 /sec)
+c decisions             : 29984          (0.00 % random) (59968 /sec)
+c propagations          : 869635         (1739270 /sec)
+c nb reduced Clauses    : 16
+c LCM                   : 1302 / 4212 
+c Memory used           : 8.73 MB
+c CPU time              : 0.5 s
+
+s UNSATISFIABLE

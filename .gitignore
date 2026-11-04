@@ -1,0 +1,57 @@
+# =========================================================================
+# .gitignore for Adaptive Restart and Nogood Management CDCL SAT Solver
+# =========================================================================
+
+# Compiled Object Files & Archives
+*.o
+*.obj
+*.a
+*.lib
+
+# Debug Executables & Symbol Files
+*-debug.exe
+*.pdb
+*.ilk
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Scratch & Intermediate Temporary Directories
+scratch/
+temp/
+tmp/
+
+# Preserve Critical Release Binaries & Assets
+!src/glucose_windows/glucose-simp.exe
+!src/glucose_windows/glucose-qre-gated.exe
+!src/glucose_windows/glucose-qre-active.exe
+!src/glucose_windows/glucose-portfolio-mab.exe
+!src/glucose_windows/glucose-simp-step35-frozen.exe
+!Final_Research_Report.pdf
+!Final_Presentation.pptx
+!Final_Presentation.pdf
+!experiments/results/**
+!docs/figures/**
+

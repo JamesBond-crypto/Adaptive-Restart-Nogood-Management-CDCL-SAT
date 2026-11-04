@@ -1,0 +1,73 @@
+=== COMMAND: D:\DAC_203@Project\src\glucose_windows\glucose-portfolio-mab.exe -restart-strategy=baseline -reduce-strategy=adaptive-fixed -model D:\DAC_203@Project\benchmarks\expanded\rand3sat_n150_c639_s1001.cnf ===
+=== EXIT STATUS: COMPLETE ===
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:           150                                                                   |
+c |  Number of clauses:             639                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * LBD Queue    :     50      |   * First     :   2000         |    * size <  30                     |
+c |   * Trail  Queue :   5000      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * K            :   0.80      |   * Special   :   1000         |                                     |
+c |   * R            :   1.40      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c =========================================================================================================
+c restarts              : 2 (3484 conflicts in avg)
+c genuine restarts      : 1
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : baseline
+c v3 shadow             : disabled
+c qre shadow            : disabled
+c portfolio shadow      : disabled
+c reduction strategy    : adaptive-fixed
+c adapt reduce calls    : 2
+c adapt clauses ranked  : 4916
+c adapt clauses eligible: 2655
+c adapt clauses removed : 2432
+c adapt spared locked   : 3
+c adapt spared binary   : 25
+c adapt spared glue     : 0
+c adapt spared canbedel : 195
+c adapt last retained   : 1484
+c adapt last avg ret LBD: 3.08
+c adapt last avg del LBD: 6.54
+c adapt reduce time     : 0.0156 s
+c adapt postpone evals  : 2
+c adapt postpone sat    : 2
+c adapt postpone inc db : 2000
+c nb ReduceDB           : 2
+c nb removed Clauses    : 2432
+c average learnt size   : 8
+c nb learnts DL2        : 134
+c nb learnts size 2     : 40
+c nb learnts size 1     : 12
+c conflicts             : 6969           (74336 /sec)
+c decisions             : 8134           (0.00 % random) (86763 /sec)
+c propagations          : 201544         (2149803 /sec)
+c nb reduced Clauses    : 3
+c LCM                   : 561 / 1343 
+c Memory used           : 7.08 MB
+c CPU time              : 0.09375 s
+
+s UNSATISFIABLE

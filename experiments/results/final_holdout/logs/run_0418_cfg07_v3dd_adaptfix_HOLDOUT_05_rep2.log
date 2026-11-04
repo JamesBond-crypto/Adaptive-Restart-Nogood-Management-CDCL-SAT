@@ -1,0 +1,76 @@
+c --- EXECUTION RUN METADATA ---
+c Run ID: run_0418_cfg07_v3dd_adaptfix_HOLDOUT_05_rep2
+c Execution Order: 418
+c Repetition: 2
+c Configuration ID: cfg07_v3dd_adaptfix
+c Benchmark ID: HOLDOUT_05 (ssa0432-003.cnf)
+c Authoritative Label: UNSAT
+c Status: UNSAT (VERIFIED_UNSAT)
+c Exit Code: 20
+c Wall Time (s): 0.0210
+c Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive-v3 -v3-trend=0 -v3-drawdown=1 -v3-ceiling=0 -reduce-strategy=adaptive-fixed D:\DAC_203@Project\benchmarks\final_holdout\ssa0432-003.cnf
+c --- SOLVER STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:           435                                                                   |
+c |  Number of clauses:             925                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.01 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c =========================================================================================================
+Solved by simplification
+c restarts              : 0 (0 conflicts in avg)
+c genuine restarts      : 0
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : adaptive-v3 (trend=disabled, drawdown=enabled, ceiling=disabled)
+c v3 req trend          : 0
+c v3 req drawdown       : 0
+c v3 req ceiling        : 0
+c v3 total requests     : 0
+c v3 executed restarts  : 0
+c v3 blocked restarts   : 0
+c v3 max interval       : 0
+c v3 valid return obs   : 0
+c v3 mean return        : 0.0000
+c v3 final fast ewma    : 0.0000
+c v3 final slow ewma    : 0.0000
+c v3 max observed dd    : 0.0000
+c v3 shadow             : disabled
+c reduction strategy    : adaptive-fixed
+c adapt reduce calls    : 0
+c adapt clauses ranked  : 0
+c adapt clauses eligible: 0
+c adapt clauses removed : 0
+c adapt spared locked   : 0
+c adapt spared binary   : 0
+c adapt spared glue     : 0
+c adapt spared canbedel : 0
+c adapt last retained   : 0
+c adapt last avg ret LBD: 0.00
+c adapt last avg del LBD: 0.00
+c adapt reduce time     : 0.0000 s
+c adapt postpone evals  : 0
+c adapt postpone sat    : 0
+c adapt postpone inc db : 0
+c nb ReduceDB           : 0
+c nb removed Clauses    : 0
+c average learnt size   : 0
+c nb learnts DL2        : 0
+c nb learnts size 2     : 0
+c nb learnts size 1     : 0
+c conflicts             : 0              (nan /sec)
+c decisions             : 0              ( nan % random) (nan /sec)
+c propagations          : 110            (inf /sec)
+c nb reduced Clauses    : 0
+c LCM                   : 0 / 0 
+c Memory used           : 6.52 MB
+c CPU time              : 0 s
+
+s UNSATISFIABLE

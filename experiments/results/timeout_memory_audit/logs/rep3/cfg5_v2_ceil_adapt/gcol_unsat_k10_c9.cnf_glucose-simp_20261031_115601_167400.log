@@ -1,0 +1,128 @@
+=== BENCHMARK RUN LOG ===
+Timestamp UTC: 2026-10-31T06:25:50.839860+00:00
+Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive-v2 -v2-quality-fallback=0 -v2-conflict-ceiling=1 -v2-max-conflicts=2500 -reduce-strategy=adaptive D:\DAC_203@Project\benchmarks\expanded\gcol_unsat_k10_c9.cnf
+Timeout Limit: 15.0s
+Timed Out: False
+Exit Code: 20
+Status: UNSAT
+Wall Time: 10.326918s
+
+--- STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:            90                                                                   |
+c |  Number of clauses:             775                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * Strategy     : adaptive-v2  |   * First     :   2000         |    * size <  30                     |
+c |   * Fallback LBD :    off      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * Ceiling      :     on      |   * Special   :   1000         |                                     |
+c |   * Max Conflicts:   2500      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |        4         0     2500 |      80      685     2000 |     2     6209        0     3790 |  0.173 % |
+c |        8         0     2500 |      80      685     2000 |     3    11204        0     8795 |  0.013 % |
+c |       12         0     2500 |      80      685     2000 |     4    13801        0    16198 |  0.212 % |
+c |       16         0     2500 |      80      685     2000 |     5    13904        0    26095 |  0.013 % |
+c |       20         0     2500 |      80      685     2000 |     5    23904        0    26095 |  0.012 % |
+c |       24         0     2500 |      80      685     2000 |     6    21451        0    38548 |  0.012 % |
+c |       28         0     2500 |      80      685     2000 |     7    16424        0    53575 |  0.014 % |
+c |       32         0     2500 |      80      685     2000 |     7    26424        0    53575 |  0.212 % |
+c |       36         0     2500 |      80      685     2000 |     8    18812        0    71187 |  0.199 % |
+c |       40         0     2500 |      80      685     2000 |     8    28812        1    71187 |  0.175 % |
+c
+c Try to adapt solver strategies
+c 
+c Adjusting solver for the SAT Race 2015 (alpha feature)
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 1776 clauses to the permanent set.
+c Removing of non permanent clauses.
+c |       45         0     2444 |      80      685     2137 |     9     8940        1    72180 |  0.012 % |
+c |       49         0     2448 |      80      685     2273 |     9    18852        1    72180 |  0.012 % |
+c |       53         0     2452 |      80      685     2622 |     9    28678        1    72180 |  0.014 % |
+c |       57         0     2456 |      80      685     2839 |     9    38546        1    72180 |  0.015 % |
+c |       61         0     2459 |      80      685     3112 |     9    48324        1    72180 |  0.014 % |
+c |       65         0     2461 |      80      685     3468 |    10    31035        3    99241 |  0.185 % |
+c |       69         0     2463 |      80      685     3808 |    10    40821        3    99241 |  0.198 % |
+c |       73         0     2465 |      80      685     4278 |    10    50497        3    99241 |  0.012 % |
+c |       77         0     2467 |      80      685     4558 |    10    60237        3    99241 |  0.185 % |
+c |       82         0     2439 |      80      685     5153 |    10    69862        3    99241 |  0.015 % |
+c |       86         0     2441 |      80      685     6099 |    10    79289        5    99241 |  0.013 % |
+c |       90         0     2444 |      79      669    -4988 |    11    38644        9   139807 |  1.126 % |
+c |       94         0     2446 |      79      669    -4199 |    11    48224       10   139807 |  1.311 % |
+c |       98         0     2448 |      79      669    -3886 |    11    57933       11   139807 |  1.284 % |
+c |      102         0     2450 |      79      669    -3356 |    11    67510       13   139807 |  1.126 % |
+c |      106         0     2452 |      79      669    -2721 |    11    77104       15   139807 |  1.124 % |
+c |      110         0     2454 |      79      669    -2039 |    11    86602       16   139807 |  1.124 % |
+c |      114         0     2456 |      79      669     -956 |    12    52561       23   183106 |  1.348 % |
+c |      118         0     2457 |      78      654   -11598 |    12    52517       30   183106 |  2.445 % |
+c |      122         0     2459 |      78      654   -10589 |    12    61847       35   183106 |  2.383 % |
+c |      126         0     2460 |      76      654    -7028 |    12    70383       61   183106 |  4.469 % |
+c =========================================================================================================
+c restarts              : 129 (2470 conflicts in avg)
+c genuine restarts      : 128
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : adaptive-v2 (theta=0.60, min_interval=50, warmup=100)
+c v2 quality fallback   : disabled (k=0.80)
+c v2 conflict ceiling   : enabled (max_conflicts=2500)
+c v2 req progress       : 1
+c v2 req quality        : 0
+c v2 req ceiling        : 126
+c v2 total requests     : 127
+c v2 executed restarts  : 127
+c v2 blocked restarts   : 0
+c v2 max interval       : 2505
+c last adaptive score   : 4.0569 (global: 1.2501)
+c reduction strategy    : adaptive
+c adapt reduce calls    : 12
+c adapt clauses ranked  : 366267
+c adapt clauses eligible: 201716
+c adapt clauses removed : 183106
+c adapt spared locked   : 25
+c adapt spared binary   : 0
+c adapt spared glue     : 0
+c adapt spared canbedel : 18585
+c adapt last retained   : 43304
+c adapt last avg ret LBD: 7.64
+c adapt last avg del LBD: 13.39
+c adapt reduce time     : 0.0938 s
+c nb ReduceDB           : 12
+c nb removed Clauses    : 183106
+c average learnt size   : 21
+c nb learnts DL2        : 100
+c nb learnts size 2     : 77
+c nb learnts size 1     : 11
+c nb permanent learnts  : 10035
+c conflicts             : 318656         (31375 /sec)
+c decisions             : 341561         (0.00 % random) (33631 /sec)
+c propagations          : 2560715        (252132 /sec)
+c nb reduced Clauses    : 4481
+c LCM                   : 9125 / 13754 
+c Memory used           : 27.55 MB
+c CPU time              : 10.1562 s
+
+s UNSATISFIABLE
+
+--- STDERR ---
+(none)

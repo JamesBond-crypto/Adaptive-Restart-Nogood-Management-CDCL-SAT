@@ -1,0 +1,144 @@
+{
+  "timestamp_start_utc": "2026-10-31T03:53:15.017098+00:00",
+  "solver_path": "src\\glucose_windows\\glucose-simp.exe",
+  "solver_sha256": "1cf0542c25662b6f3c6a31935f04acfc1fd66997d0bbf99e9532d5718b145acf",
+  "timeout_seconds": 15.0,
+  "benchmark_count": 36,
+  "configurations_count": 8,
+  "total_planned_runs": 288,
+  "benchmark_hashes": {
+    "rand3sat_n150_c639_s1001.cnf": "2bb97f16e7cdd200ef98e2115cd715f95835bdb689f29c27493ca9704fe1cb5f",
+    "rand3sat_n150_c645_s1002.cnf": "b41c7a88fc8fa276a32e1f8232207db32145eea8c0a2fad377a6ab1c5ce4d987",
+    "rand3sat_n175_c735_s1003.cnf": "f5d8e8b4f8b6e6e5dce2c49d76bef6f53e51b04ab89482569252986335aad184",
+    "rand3sat_n175_c745_s1004.cnf": "b8d04c3a114f58b976e7ab1665c30cab624a765cff5fa7b7e6756147d88eb882",
+    "rand3sat_n200_c840_s1005.cnf": "c1e35d396829853f4d537f260092e0d3c31f8d435d3f944188b4c066e9e388a9",
+    "rand3sat_n200_c852_s1006.cnf": "08eaaa6088615b0341a970f4912ad25ad52b8f2342ee2c051438540238771c4c",
+    "rand3sat_n215_c915_s1007.cnf": "b2e56d4cd0c40fc4eb19c6dbcec5673ad3ce6b0ffa738c5a369e6b7ef8cf39b1",
+    "rand3sat_n225_c958_s1008.cnf": "3554c411c01b9affcf791999b9b172a0a59d43d6d5674f72c6139cde5b8a10c9",
+    "rand3sat_n235_c999_s1009.cnf": "78c664697b93a5d952c9a60bd4bfc7d86600ddeb34d6f8b42367870114e2fc2a",
+    "rand3sat_n250_c1065_s1010.cnf": "9ab9a3ad12b76cf7b3ea077fe78e2e2cb0e383f2c4d48d3c8e45fd05911a97f3",
+    "planted3sat_n160_c682_s2001.cnf": "43e0af4136048230e88140f1264c2814736ee07c3f5592e59a8f1650f457084e",
+    "planted3sat_n160_c688_s2002.cnf": "7909dcb710f1e7536174a8a7b7339e0701bafff11b87c5cc1f754efe9a189293",
+    "planted3sat_n180_c756_s2003.cnf": "2f57cdf55c7ddbea021b25402bb15b206b58b8c48c3b73bd6168287efd502a71",
+    "planted3sat_n180_c767_s2004.cnf": "c5e5a1ccac3d2a75fccd9c3f6a0bf8a887ec773e2c880e42688013a12b53def0",
+    "planted3sat_n200_c852_s2005.cnf": "9e6bdecdfd85ca2e8bf0b614f83ee041cae1802661367ce6ebc671e0a914663c",
+    "planted3sat_n200_c860_s2006.cnf": "91c89eb50ff7be29aaed270630daf65cec2d64534cb6d66862076f3b0c5f4c23",
+    "planted3sat_n220_c937_s2007.cnf": "a0595674a0ae7c6653571df4ab67aad591200b84a5aa6dd96311d4a6a1e32318",
+    "planted3sat_n220_c946_s2008.cnf": "ae388f70b6161c10eb13afc1e6b8a49e80edf39ff79a23d921b3a6136daaafd2",
+    "planted3sat_n240_c1022_s2009.cnf": "4a81dab171fb48100ac82a319a4a178e84ba603e8343487f334277deb45ebcf6",
+    "planted3sat_n260_c1108_s2010.cnf": "2e36b89dfd643887d6e749596c34bbf05993d90e9bf0ab9b5ed77bdf5fff59b8",
+    "php_9p_7h.cnf": "3ffb84f696f47d54c8fc53af569a913e51ff030a1bfa1ae293ce9d8619d80697",
+    "php_10p_8h.cnf": "70ad5de84c27e6e81cd511dae3a737faddd8038d58d3b52d772f05237cdaa7db",
+    "php_10p_9h.cnf": "61422766a4b1d4524e53c848693a0695cb3a6cc0315996ef066b0ebfb97b8964",
+    "php_11p_10h.cnf": "5fd6d0728a4f9195cc58972c6ae983fa75765b631104145057363867f64a423e",
+    "gcol_sat_n30_k3_m90_s3001.cnf": "987249d81bbc8e2bcfa6d0c142bd01413f99db909908e091097e7fa90d7f1608",
+    "gcol_sat_n35_k3_m115_s3002.cnf": "c1209016a4b924dd9f6a747d14d271f0afde4ef74e6089fe1ebbc1989659092d",
+    "gcol_sat_n40_k3_m140_s3003.cnf": "58e2c71d102ec237cca35cd5f024b8bbce27a83636cda396a8295b2d69cb10cf",
+    "gcol_sat_n45_k3_m165_s3004.cnf": "dd6bfcf5b8d86e3abd3dbbd3ce53e0c1177a363319dafbbfcfd46abd03ae8f53",
+    "gcol_sat_n50_k3_m190_s3005.cnf": "0319c85e86e37e1a45eddb4a7f1bc862bbb75e4d42ac32a8e1741c062ea234fc",
+    "gcol_sat_n40_k4_m180_s3006.cnf": "601f3bbb9124a4ce97660be777fe50d396b197c3044fe3195397f987017569f9",
+    "gcol_unsat_k8_c7.cnf": "0e83e0e7450bc100445978a78261cc2dc3f1964e10e20629c01f067375336828",
+    "gcol_unsat_k9_c8.cnf": "906fea2e1a243d71d790f9e797df0978c00eec35392589e376e58802ea54d7c2",
+    "gcol_unsat_k10_c9.cnf": "4ecc6e2f1cf2bca3939f51334bc4d60afd2821339d91ba77f0434f6867e73dca",
+    "gcol_unsat_k11_c10.cnf": "57871ae4cce56683cc9ec8eede28b208f69371b100ca474e5bc19b6a03162a67",
+    "gcol_unsat_grotzsch_k3.cnf": "9c8e49dbefb4c330ff50680c2fe982e5d250e91094a3044b5f5aa153423cd141",
+    "gcol_unsat_clique_embed_n30_k5_s3101.cnf": "a468c1875b645b939be7360e90591f2949eac124857a04e5f8c043d9ac0208f6"
+  },
+  "configurations": [
+    {
+      "id": "cfg1_base_base",
+      "name": "Baseline Restart + Baseline Reduction",
+      "restart_strategy": "baseline",
+      "reduce_strategy": "baseline",
+      "extra_args": [
+        "-restart-strategy=baseline",
+        "-reduce-strategy=baseline"
+      ]
+    },
+    {
+      "id": "cfg2_v1_base",
+      "name": "Adaptive V1 Restart + Baseline Reduction",
+      "restart_strategy": "adaptive",
+      "reduce_strategy": "baseline",
+      "extra_args": [
+        "-restart-strategy=adaptive",
+        "-reduce-strategy=baseline"
+      ]
+    },
+    {
+      "id": "cfg3_v1_adapt",
+      "name": "Adaptive V1 Restart + Adaptive Reduction",
+      "restart_strategy": "adaptive",
+      "reduce_strategy": "adaptive",
+      "extra_args": [
+        "-restart-strategy=adaptive",
+        "-reduce-strategy=adaptive"
+      ]
+    },
+    {
+      "id": "cfg4_v2_ceil_base",
+      "name": "V2 Ceiling Only + Baseline Reduction",
+      "restart_strategy": "adaptive-v2",
+      "reduce_strategy": "baseline",
+      "extra_args": [
+        "-restart-strategy=adaptive-v2",
+        "-v2-quality-fallback=0",
+        "-v2-conflict-ceiling=1",
+        "-v2-max-conflicts=2500",
+        "-reduce-strategy=baseline"
+      ]
+    },
+    {
+      "id": "cfg5_v2_ceil_adapt",
+      "name": "V2 Ceiling Only + Adaptive Reduction",
+      "restart_strategy": "adaptive-v2",
+      "reduce_strategy": "adaptive",
+      "extra_args": [
+        "-restart-strategy=adaptive-v2",
+        "-v2-quality-fallback=0",
+        "-v2-conflict-ceiling=1",
+        "-v2-max-conflicts=2500",
+        "-reduce-strategy=adaptive"
+      ]
+    },
+    {
+      "id": "cfg6_v2_qual_base",
+      "name": "V2 Quality Only + Baseline Reduction",
+      "restart_strategy": "adaptive-v2",
+      "reduce_strategy": "baseline",
+      "extra_args": [
+        "-restart-strategy=adaptive-v2",
+        "-v2-quality-fallback=1",
+        "-v2-conflict-ceiling=0",
+        "-reduce-strategy=baseline"
+      ]
+    },
+    {
+      "id": "cfg7_v2_qual_adapt",
+      "name": "V2 Quality Only + Adaptive Reduction",
+      "restart_strategy": "adaptive-v2",
+      "reduce_strategy": "adaptive",
+      "extra_args": [
+        "-restart-strategy=adaptive-v2",
+        "-v2-quality-fallback=1",
+        "-v2-conflict-ceiling=0",
+        "-reduce-strategy=adaptive"
+      ]
+    },
+    {
+      "id": "cfg8_v2_comb_adapt",
+      "name": "V2 Combined Safeguards + Adaptive Reduction",
+      "restart_strategy": "adaptive-v2",
+      "reduce_strategy": "adaptive",
+      "extra_args": [
+        "-restart-strategy=adaptive-v2",
+        "-v2-quality-fallback=1",
+        "-v2-conflict-ceiling=1",
+        "-v2-max-conflicts=2500",
+        "-reduce-strategy=adaptive"
+      ]
+    }
+  ],
+  "timestamp_finish_utc": "2026-10-31T04:02:43.689614+00:00",
+  "total_wall_time_seconds": 568.6581506729126
+}

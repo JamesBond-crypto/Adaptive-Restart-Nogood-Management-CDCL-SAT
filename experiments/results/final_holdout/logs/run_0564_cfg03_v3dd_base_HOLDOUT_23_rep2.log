@@ -1,0 +1,63 @@
+c --- EXECUTION RUN METADATA ---
+c Run ID: run_0564_cfg03_v3dd_base_HOLDOUT_23_rep2
+c Execution Order: 564
+c Repetition: 2
+c Configuration ID: cfg03_v3dd_base
+c Benchmark ID: HOLDOUT_23 (pret60_60.cnf)
+c Authoritative Label: UNSAT
+c Status: UNSAT (VERIFIED_UNSAT)
+c Exit Code: 20
+c Wall Time (s): 0.0196
+c Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive-v3 -v3-trend=0 -v3-drawdown=1 -v3-ceiling=0 -reduce-strategy=baseline D:\DAC_203@Project\benchmarks\final_holdout\pret60_60.cnf
+c --- SOLVER STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:            60                                                                   |
+c |  Number of clauses:             160                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c =========================================================================================================
+Solved by simplification
+c restarts              : 0 (0 conflicts in avg)
+c genuine restarts      : 0
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : adaptive-v3 (trend=disabled, drawdown=enabled, ceiling=disabled)
+c v3 req trend          : 0
+c v3 req drawdown       : 0
+c v3 req ceiling        : 0
+c v3 total requests     : 0
+c v3 executed restarts  : 0
+c v3 blocked restarts   : 0
+c v3 max interval       : 0
+c v3 valid return obs   : 0
+c v3 mean return        : 0.0000
+c v3 final fast ewma    : 0.0000
+c v3 final slow ewma    : 0.0000
+c v3 max observed dd    : 0.0000
+c v3 shadow             : disabled
+c reduction strategy    : baseline
+c nb ReduceDB           : 0
+c nb removed Clauses    : 0
+c average learnt size   : 0
+c nb learnts DL2        : 0
+c nb learnts size 2     : 0
+c nb learnts size 1     : 0
+c conflicts             : 0              (nan /sec)
+c decisions             : 0              ( nan % random) (nan /sec)
+c propagations          : 0              (nan /sec)
+c nb reduced Clauses    : 0
+c LCM                   : 0 / 0 
+c Memory used           : 6.25 MB
+c CPU time              : 0 s
+
+s UNSATISFIABLE
+
+c --- SOLVER STDERR ---
+WARNING! DIMACS header mismatch: wrong number of clauses.

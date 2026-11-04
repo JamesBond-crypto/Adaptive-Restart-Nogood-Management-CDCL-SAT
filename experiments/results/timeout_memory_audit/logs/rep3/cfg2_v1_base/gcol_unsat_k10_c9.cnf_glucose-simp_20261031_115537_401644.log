@@ -1,0 +1,112 @@
+=== BENCHMARK RUN LOG ===
+Timestamp UTC: 2026-10-31T06:25:31.357877+00:00
+Command: D:\DAC_203@Project\src\glucose_windows\glucose-simp.exe -model -restart-strategy=adaptive -reduce-strategy=baseline D:\DAC_203@Project\benchmarks\expanded\gcol_unsat_k10_c9.cnf
+Timeout Limit: 15.0s
+Timed Out: False
+Exit Code: 20
+Status: UNSAT
+Wall Time: 6.043373s
+
+--- STDOUT ---
+c
+c This is glucose 4.2.1 --  based on MiniSAT (Many thanks to MiniSAT team)
+c
+c ========================================[ Problem Statistics ]===========================================
+c |                                                                                                       |
+c |  Number of variables:            90                                                                   |
+c |  Number of clauses:             775                                                                   |
+c |  Parse time:                   0.00 s                                                                 |
+c |                                                                                                       |
+c | Preprocesing is fully done
+c |  Eliminated clauses:           0.00 Mb                                                                |
+c |  Simplification time:          0.00 s                                                                 |
+c |                                                                                                       |
+c ========================================[ MAGIC CONSTANTS ]==============================================
+c | Constants are supposed to work well together :-)                                                      |
+c | however, if you find better choices, please let us known...                                           |
+c |-------------------------------------------------------------------------------------------------------|
+c | Adapt dynamically the solver after 100000 conflicts (restarts, reduction strategies...)               |
+c |-------------------------------------------------------------------------------------------------------|
+c |                                |                                |                                     |
+c | - Restarts:                    | - Reduce Clause DB:            | - Minimize Asserting:               |
+c |   * Strategy     :   adaptive   |   * First     :   2000         |    * size <  30                     |
+c |   * Theta        :   0.60      |   * Inc       :    300         |    * lbd  <   6                     |
+c |   * Min Interval :     50      |   * Special   :   1000         |                                     |
+c |   * Warmup       :    100      |   * Protected :  (lbd)< 30     |                                     |
+c |                                |                                |                                     |
+c ==================================[ Search Statistics (every  10000 conflicts) ]=========================
+c |                                                                                                       |
+c |          RESTARTS           |          ORIGINAL         |              LEARNT              | Progress |
+c |       NB   Blocked  Avg Cfc |    Vars  Clauses Literals |   Red   Learnts    LBD2  Removed |          |
+c =========================================================================================================
+c |        1         0    10000 |      80      685     2000 |     2     6206        0     3793 |  0.012 % |
+c |        1         0    20000 |      80      685     2000 |     3    11203        0     8796 |  0.012 % |
+c |        1         0    30000 |      80      685     2000 |     4    13801        0    16198 |  0.012 % |
+c |        2         0    20000 |      80      685     2000 |     5    13900        0    26099 |  0.012 % |
+c |        2         0    25000 |      80      685     2000 |     5    23900        0    26099 |  0.012 % |
+c |        2         0    30000 |      80      685     2000 |     6    21450        1    38549 |  0.012 % |
+c |        2         0    35000 |      80      685     2000 |     7    16425        1    53574 |  0.012 % |
+c |        2         0    40000 |      80      685     2000 |     7    26425        1    53574 |  0.012 % |
+c |        2         0    45000 |      80      685     2000 |     8    18811        1    71188 |  0.012 % |
+c |        2         0    50000 |      80      685     2000 |     8    28811        2    71188 |  0.012 % |
+c
+c Try to adapt solver strategies
+c 
+c Adjusting solver for the SAT Race 2015 (alpha feature)
+c Adjusting for low decision levels.
+c
+c Activating Chanseok Strategy: moved 1733 clauses to the permanent set.
+c Removing of non permanent clauses.
+c |        3         0    36666 |      80      685     2172 |    12     3838        2    77284 |  0.012 % |
+c |        4         0    30000 |      80      685     2899 |    17     3953        5    87009 |  0.198 % |
+c |        4         0    32500 |      80      685     3016 |    22     3974        5    96945 |  0.198 % |
+c |        4         0    35000 |      80      685     3928 |    27     3846        6   106821 |  0.395 % |
+c |        4         0    37500 |      79      669     4344 |    32     3799       13   115371 |  1.124 % |
+c |        5         0    32000 |      79      669     4861 |    37     3957       14   125059 |  1.124 % |
+c |        5         0    34000 |      79      669     5129 |    42     3971       16   134978 |  1.124 % |
+c |        5         0    36000 |      79      669     5647 |    47     3947       17   144810 |  1.124 % |
+c |        5         0    38000 |      79      669     6260 |    52     3933       19   154677 |  1.124 % |
+c |        5         0    40000 |      79      669     6662 |    57     3985       19   164507 |  1.124 % |
+c |        5         0    42000 |      79      669     7023 |    62     3997       20   174410 |  1.124 % |
+c |        5         0    44000 |      79      669     7808 |    67     3915       20   184337 |  1.124 % |
+c |        5         0    46000 |      79      669     8016 |    72     3987       20   194183 |  1.124 % |
+c |        5         0    48000 |      79      669     9396 |    77     3870       20   204077 |  1.124 % |
+c |        5         0    50000 |      79      669    10210 |    82     3883       21   213784 |  1.139 % |
+c |        5         0    52000 |      78      654     8486 |    87     3831       22   222671 |  2.261 % |
+c |        5         0    54000 |      78      654     9155 |    92     3920       24   232343 |  2.272 % |
+c |        5         0    56000 |      78      654     9328 |    97     3977       24   242215 |  2.272 % |
+c |        5         0    58000 |      78      654     9450 |   102     3978       25   252138 |  2.272 % |
+c |        5         0    60000 |      78      654    10155 |   107     3926       25   262031 |  2.272 % |
+c |        5         0    62000 |      78      654    10629 |   112     3950       25   271883 |  2.276 % |
+c |        5         0    64000 |      64      485   -16257 |   117     2442       30   280158 | 17.792 % |
+c |        5         0    66000 |      64      485   -13448 |   122     3725       40   288321 | 17.840 % |
+c |        5         0    68000 |      64      485   -12640 |   127     3942       41   297920 | 17.840 % |
+c =========================================================================================================
+c restarts              : 5 (69246 conflicts in avg)
+c genuine restarts      : 4
+c blocked restarts      : 0 (multiple: 0) 
+c last block at restart : 0
+c restart strategy      : adaptive (theta=0.60, min_interval=50, warmup=100)
+c adaptive restart requests: 3
+c adaptive restarts     : 3
+c last adaptive score   : 2.6136 (global: 1.2263)
+c reduction strategy    : baseline
+c nb ReduceDB           : 131
+c nb removed Clauses    : 305304
+c average learnt size   : 22
+c nb learnts DL2        : 94
+c nb learnts size 2     : 72
+c nb learnts size 1     : 13
+c nb permanent learnts  : 5250
+c conflicts             : 346232         (58467 /sec)
+c decisions             : 372018         (0.00 % random) (62821 /sec)
+c propagations          : 2765523        (467001 /sec)
+c nb reduced Clauses    : 4765
+c LCM                   : 8724 / 9493 
+c Memory used           : 14.94 MB
+c CPU time              : 5.92188 s
+
+s UNSATISFIABLE
+
+--- STDERR ---
+(none)

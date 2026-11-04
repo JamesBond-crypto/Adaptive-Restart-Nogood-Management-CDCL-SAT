@@ -1,0 +1,106 @@
+{
+  "frozen_at": "Step 34 Final Evaluation Preparation",
+  "solver_name": "glucose-simp.exe",
+  "solver_path": "src/glucose_windows/glucose-simp.exe",
+  "solver_sha256": "e811005ab18256aa70efba2945ad5a578f5a38abec7e5c563d0989fd69e06b66",
+  "git_commit": "16ad544bd3d20d88a054aea3b962784e380ae9be",
+  "compiler": "g++.exe (Rev2, Built by MSYS2 project) 14.2.0",
+  "build_command": "g++ -O3 -std=c++11 -DNDEBUG -D__STDC_LIMIT_MACROS -D__STDC_FORMAT_MACROS -I. -Icore -Isimp -Imtl -Iutils core/Solver.cc core/lcm.cc simp/SimpSolver.cc simp/Main.cc utils/Options.cc utils/System.cc -lz -lpsapi -o glucose-simp.exe",
+  "configurations": [
+    {
+      "id": "cfg01_baseline_base",
+      "name": "Glucose Baseline Restarts + Baseline Reduction",
+      "restart_strategy": "baseline",
+      "reduce_strategy": "baseline",
+      "command_flags": [
+        "-restart-strategy=baseline",
+        "-reduce-strategy=baseline"
+      ],
+      "description": "Native Glucose 4.2.1 dynamic restarts based on LBD moving average (K=0.8, R=1.4) and baseline clause reduction."
+    },
+    {
+      "id": "cfg02_v1_base",
+      "name": "Adaptive Restart V1 + Baseline Reduction",
+      "restart_strategy": "adaptive",
+      "reduce_strategy": "baseline",
+      "command_flags": [
+        "-restart-strategy=adaptive",
+        "-reduce-strategy=baseline"
+      ],
+      "description": "Adaptive Restart V1 tracking propagation efficiency Sharpe ratio with degradation threshold theta=0.60, min interval=50, warmup=100."
+    },
+    {
+      "id": "cfg03_v3dd_base",
+      "name": "Finance-Inspired V3 Drawdown-Only + Baseline Reduction",
+      "restart_strategy": "adaptive-v3",
+      "reduce_strategy": "baseline",
+      "command_flags": [
+        "-restart-strategy=adaptive-v3",
+        "-v3-trend=0",
+        "-v3-drawdown=1",
+        "-v3-ceiling=0",
+        "-reduce-strategy=baseline"
+      ],
+      "description": "Finance-Inspired Restart V3 using sustained relative drawdown trigger (Dt >= 0.75 for 30 consecutive conflicts), trend disabled, ceiling disabled."
+    },
+    {
+      "id": "cfg04_noheuristic_base",
+      "name": "No-Heuristic Restarts + Baseline Reduction",
+      "restart_strategy": "no-heuristic-restart",
+      "reduce_strategy": "baseline",
+      "command_flags": [
+        "-restart-strategy=no-heuristic-restart",
+        "-reduce-strategy=baseline"
+      ],
+      "description": "Zero heuristic restarts (do_restart = false), executing only Glucose's native strategy adaptation at conflict 100,000."
+    },
+    {
+      "id": "cfg05_baseline_adaptfix",
+      "name": "Glucose Baseline Restarts + Adaptive-Fixed Reduction",
+      "restart_strategy": "baseline",
+      "reduce_strategy": "adaptive-fixed",
+      "command_flags": [
+        "-restart-strategy=baseline",
+        "-reduce-strategy=adaptive-fixed"
+      ],
+      "description": "Native Glucose restarts paired with multi-attribute adaptive learned clause retention (LBD 0.50, Activity 0.40, Size 0.10) and monotonic reduction scheduling."
+    },
+    {
+      "id": "cfg06_v1_adaptfix",
+      "name": "Adaptive Restart V1 + Adaptive-Fixed Reduction",
+      "restart_strategy": "adaptive",
+      "reduce_strategy": "adaptive-fixed",
+      "command_flags": [
+        "-restart-strategy=adaptive",
+        "-reduce-strategy=adaptive-fixed"
+      ],
+      "description": "Adaptive Restart V1 paired with multi-attribute adaptive-fixed clause retention."
+    },
+    {
+      "id": "cfg07_v3dd_adaptfix",
+      "name": "Finance-Inspired V3 Drawdown-Only + Adaptive-Fixed Reduction",
+      "restart_strategy": "adaptive-v3",
+      "reduce_strategy": "adaptive-fixed",
+      "command_flags": [
+        "-restart-strategy=adaptive-v3",
+        "-v3-trend=0",
+        "-v3-drawdown=1",
+        "-v3-ceiling=0",
+        "-reduce-strategy=adaptive-fixed"
+      ],
+      "description": "V3 Drawdown-Only restart policy paired with multi-attribute adaptive-fixed clause retention."
+    },
+    {
+      "id": "cfg08_noheuristic_adaptfix",
+      "name": "No-Heuristic Restarts + Adaptive-Fixed Reduction",
+      "restart_strategy": "no-heuristic-restart",
+      "reduce_strategy": "adaptive-fixed",
+      "command_flags": [
+        "-restart-strategy=no-heuristic-restart",
+        "-reduce-strategy=adaptive-fixed"
+      ],
+      "description": "No heuristic restarts paired with multi-attribute adaptive-fixed clause retention."
+    }
+  ]
+}
+
