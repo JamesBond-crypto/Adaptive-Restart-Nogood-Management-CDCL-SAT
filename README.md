@@ -73,7 +73,7 @@ flowchart TD
     D --> E{"Check Restart Trigger"}
     
     subgraph Restart Control
-        E -- Baseline --> F["Dual EWMA (K=0.80, R=1.40)"]
+        E -- Baseline --> F["Dynamic LBD Moving Average (Queue 50, K=0.80, R=1.40)"]
         E -- V1 Efficiency --> G["Window S_W vs Global Baseline S_0 (Threshold: 0.60 * S_0)"]
         E -- V2 Anti-Starvation --> H["Ceiling 2500, LBD Fallback, Progress Degradation"]
         E -- V3 Drawdown --> I["Rolling High-Water Mark Drawdown (HWM, D_t ≥ 0.75 for 30 consec)"]
@@ -92,9 +92,9 @@ flowchart TD
 
 | Strategy Identifier | Architecture Type | Mechanism & Formal Mathematical Rule | Target Objective |
 | :--- | :--- | :--- | :--- |
-| **Baseline Glucose** | Dual EWMA | $K = 0.80, \, R = 1.40, \, \text{LBD}_{\text{fast}} / \text{LBD}_{\text{slow}}$ with 50-clause rolling queue | Industry standard reference |
+| **Baseline Glucose** | Dynamic LBD Moving Average | Bounded 50-conflict queue: $\text{lbdQueue.getavg()} \times 0.80 > \text{global\_LBD}$ (i.e. $\text{recent\_avg} > 1.25 \times \text{global\_avg}$), with blocking restarts ($R = 1.40$) | Industry standard reference |
 | **Adaptive V1** | Search Efficiency Ratio | $S_W = \frac{\mu_{P, W}}{\sigma_{L, W} + 1.0}$ vs $S_0 = \frac{\mu_{P, 0}}{\sigma_{L, 0} + 1.0}$; triggers when $S_W < 0.60 \times S_0$ (warmup 100, interval 50) | Window-based progress tracking |
-| **Adaptive V2** | Stabilized Ceiling & Fallback | 3 triggers: Anti-starvation ceiling (2,500 conflicts), LBD fallback ($\text{avg}_{\text{queue}} \times 0.80 > \text{avg}_{\text{global}}$), and V1 efficiency degradation | Prevent restart starvation |
+| **Adaptive V2** | Stabilized Ceiling & Fallback | 3 triggers: Anti-starvation ceiling (2,500 conflicts), LBD distress fallback ($(\mathrm{lbdQueue.getavg()} \cdot 0.80) > \frac{\mathrm{sumLBD}}{\mathrm{conflictsRestarts}}$), and V1 efficiency degradation | Prevent restart starvation |
 | **V3 Maximum Drawdown** | Financial Drawdown | $D_t = \frac{\text{HWM}_t - \text{EWMA}_{\text{fast}, t}}{\text{HWM}_t + 0.05} \ge 0.75$ for 30 consecutive conflicts; $\text{HWM}_t = \max(0.999 \times \text{HWM}_{t-1}, \, \text{EWMA}_{\text{fast}, t})$; $r_t = \frac{(2/\max(1, \text{LBD})) \cdot (1 + \ln(1 + \Delta D))}{1 + (\Delta P / 25.0)}$ | Terminate stagnant search branches |
 | **Adaptive-Fixed Retention** | Multi-Attribute Nogood | $R(c) = 0.50 S_{\text{LBD}} + 0.40 S_{\text{act}} + 0.10 S_{\text{size}}$; 50% worst pruned; decoupled schedule (`first=2000`, `inc=300`); postponement if median LBD $\le 3$ or min LBD $\le 5$ | Multi-criteria clause utility |
 | **Active QRE** | Non-Parametric Risk | Rolling Sharpe $S_{\text{branch}} = \frac{\text{SMA}_{10}(R) - \text{SMA}_{50}(R)}{\max(0.75, \, \sigma_{D, 10})} < -0.35$ and $\text{VaR}_{95} \ge 3.2$ sustained for 8 conflicts (cooldown 500) | Defend against heavy-tailed spikes |
