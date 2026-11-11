@@ -14,8 +14,8 @@ DAC_203_Final_Submission/
 │
 ├── README.md                                                        # Primary project introduction, findings, and guide
 ├── Final_Research_Report.pdf                                        # Official 48-page university research monograph
-├── Final_Presentation.pptx                                          # Official 23-slide final academic presentation
-├── Final_Presentation.pdf                                           # Vector PDF export of presentation slides
+├── Final_Presentation.pptx                                          # Official 21-slide final academic presentation
+├── Final_Presentation.pdf                                           # Matching vector PDF export of presentation slides (21 pages)
 ├── PROJECT_STRUCTURE.md                                             # This catalog document
 ├── RESULTS_SUMMARY.md                                               # Executive empirical performance digest
 ├── REPRODUCE.md                                                     # Complete reproduction instructions
@@ -92,10 +92,7 @@ DAC_203_Final_Submission/
 │       ├── portfolio_mab_pilot/master_results.csv                   # Portfolio MAB experimental data
 │       └── ... (summary CSVs across all historical phases)
 │
-└── presentation/                                                    # Academic presentation resources
-    ├── Final_Research_Presentation_25_Slides.pptx                   # Master 23-slide PPTX
-    ├── Final_Research_Presentation_25_Slides.pdf                    # High-resolution vector PDF of slides
-    ├── Manav_Garg_25125026_Kugashiya_Bhavy_25125024_Final_Presentation.pptx # Metadata-explicit filename
-    ├── Presentation_Notes.md                                        # Slide-by-slide speaker notes & defense scripts
+└── presentation/                                                    # Academic presentation supporting resources
+    ├── Presentation_Notes.md                                        # Slide-by-slide speaker notes, talking points & defense scripts
     └── assets/                                                      # Vector illustrations & architecture diagrams
 ```

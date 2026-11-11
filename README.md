@@ -163,7 +163,7 @@ All configurations were evaluated under strict scientific quarantine across both
 ## 7. Where to Find Project Materials
 
 - **Complete Research Monograph:** [`Final_Research_Report.pdf`](./Final_Research_Report.pdf) (48-page publication-grade PDF)
-- **Defensive Presentation Slides:** [`Final_Presentation.pptx`](./Final_Presentation.pptx) and [`Final_Presentation.pdf`](./Final_Presentation.pdf) (23-slide deck with speaker notes)
+- **Defensive Presentation Slides:** [`Final_Presentation.pptx`](./Final_Presentation.pptx) and [`Final_Presentation.pdf`](./Final_Presentation.pdf) (21-slide deck with speaker notes)
 - **Claim Verification Audit:** [`PPT_VERIFICATION_REPORT.md`](./PPT_VERIFICATION_REPORT.md) (line-by-line proof of all constants and formulas)
 - **Source Code:** [`src/glucose_windows/`](./src/glucose_windows) (C++ implementation) and [`src/base_solver/`](./src/base_solver) (pristine reference)
 - **Benchmark Suites:** [`benchmarks/expanded/`](./benchmarks/expanded) (36 development instances) and [`benchmarks/final_holdout/`](./benchmarks/final_holdout) (48 unseen holdout instances; acquired autonomously via `python benchmarks/final_holdout/acquire_holdout_suite.py`)

@@ -16,7 +16,7 @@ All automated checks have completed across the newly prepared clean submission f
 | :--- | :--- | :---: | :--- |
 | **Essential C++ Source & Build Files** | Submission Package | **PASS** | All essential files verified present. |
 | **Final Research Report PDF** | Submission Package | **PASS** | Verified readable PDF, 48 pages, correct department, verified roll numbers 25125026 & 25125024. |
-| **Final Academic Presentation PPTX** | Submission Package | **PASS** | Verified valid PowerPoint presentation with 23 slides. |
+| **Final Academic Presentation PPTX** | Submission Package | **PASS** | Verified valid PowerPoint presentation with 21 slides. |
 | **Master Experimental Results CSVs** | Submission Package | **PASS** | Verified Development Master CSV (648 run records) and Holdout Master CSV (1,152 run records). |
 | **Publication Charts & Figures** | Submission Package | **PASS** | Found and verified 17 high-resolution PNG performance figures (all > 50KB). |
 | **Security & Credential Leak Scan** | Submission Package | **PASS** | Zero credentials, API tokens, passwords, or private keys detected. |
@@ -32,7 +32,7 @@ All automated checks have completed across the newly prepared clean submission f
 - **Development Evidence:** 648 sequential runs logged in master CSV (36 instances × 6 configurations × 3 repetitions)
 - **Holdout Evidence:** 1,152 sequential runs logged in master CSV (48 instances × 8 configurations × 3 repetitions)
 - **Final Report:** 48 pages (Times New Roman, vector equations, clean tables)
-- **Final Presentation:** 23 slides (complete with testbed architecture and future work)
+- **Final Presentation:** 21 slides (streamlined academic presentation with speaker notes)
 
 ---
 

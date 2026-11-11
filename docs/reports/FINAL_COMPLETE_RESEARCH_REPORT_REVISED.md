@@ -14,6 +14,28 @@
 
 ---
 
+---
+
+## Individual Contributions
+
+The project combined CDCL solver engineering, adaptive search-control research, experimental evaluation, and technical communication. The individual responsibilities of the two student researchers are outlined below:
+
+### Manav Garg (25125026)
+- **Research foundation and literature review:** Studied the four foundational CSP and heuristic-selection papers and supporting CDCL literature. Consolidated the problem statement, research objectives, baseline solver concepts, and literature comparisons to connect previous work with the proposed search-control methods.
+- **Solver architecture and clause retention:** Examined the Glucose 4.2.1 architecture, Windows build process, and learned-clause database operations. Contributed to the Adaptive-Fixed retention workflow, including LBD, activity and clause-size scoring, protected clauses, and reduction scheduling.
+- **Benchmark preparation and correctness checks:** Organized benchmark categories, DIMACS CNF inputs, manifests, and reproducibility materials. Supported SAT/UNSAT validation, verification of satisfying assignments, and traceability between source instances and recorded experimental results.
+- **Baseline and retention-policy evaluation:** Analyzed native Glucose and clause-management configurations using conflict counts, restarts, LBD information, and runtime measurements. Helped interpret differences between development-suite and holdout-suite behavior.
+- **Research report and technical documentation:** Prepared sections on background, methodology, benchmark setup, and comparative findings. Contributed to technical diagrams, source and citation checks, reproducibility notes, and the final review of research documentation.
+
+### Kugashiya Bhavy (25125024)
+- **Adaptive restart algorithm development:** Developed and tested V1 and V2 search-efficiency restart strategies and the V3 drawdown controller, including conflict returns, fast and slow EWMAs, high-water marks, restart thresholds, and safeguards against unproductive search.
+- **Risk-based and portfolio search control:** Implemented and evaluated QRE monitoring, stagnation-gated restart policies, and the two-arm Portfolio-MAB prototype. Investigated restart storms and regressions to understand where additional adaptation increased solver overhead.
+- **Experimental automation and measurement:** Configured repeated development and holdout comparisons, solver variants, experiment scripts, and master CSV outputs. Calculated solved counts, PAR-2, total conflicts, and related performance metrics from the recorded runs.
+- **Results analysis and visualizations:** Compared solver configurations across the evaluation suites, analyzed the Hanoi-5 case study and random-SAT regressions, and prepared performance charts distinguishing empirical improvements from statistically unsupported claims.
+- **Presentation and final project integration:** Developed the final presentation narrative around algorithms, results, and limitations. Supported source-code verification, repository documentation, reproduction instructions, and integration of final deliverables for academic submission.
+
+**Collaborative work:** Both researchers collaborated on project planning, discussion of algorithmic design, interpretation of positive and negative experimental findings, and consolidation of the final research conclusions.
+
 ## Table of Contents
 
 - [Chapter 1 — Abstract](#chapter-1--abstract)
